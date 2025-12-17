@@ -1,0 +1,116 @@
+.before-after-slider {
+  width: 100%;
+  padding: 25px 0;
+}
+
+.swiper {
+  max-width: 900px;
+  margin: 0 auto;
+  height: 500px;
+}
+
+.swiper-slide {
+  text-align: center;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.24);
+  opacity: 0.3;
+  /* transition: opacity 0.3s ease; */
+}
+
+.swiper-slide-active {
+  opacity: 1;
+}
+
+.container-before-after {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.image-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.overlay {
+  width: 50%;
+  overflow: hidden;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.overlay img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 5px;
+  height: 100%;
+  background: #000;
+  z-index: 3;
+}
+
+.slider::before {
+  content: "⇔";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+  color: #fff;
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 4px 6px;
+  border-radius: 50%;
+  z-index: 4;
+}
+
+.label {
+  position: absolute;
+  bottom: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 4px 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  z-index: 5;
+}
+
+.label-before {
+  left: 10px;
+}
+
+.label-after {
+  right: 10px;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 600px) {
+  .swiper {
+    height: 250px;
+  }
+}
