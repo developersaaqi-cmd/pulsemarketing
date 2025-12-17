@@ -2702,7 +2702,7 @@ div#service-section .service-boxes-wrapper .service-box .button img {
   }
 
   .fancy-btn .text {
-      transform: translateY(-2px);
+      transform: translateY(0px);
       display: block;
   }
 
