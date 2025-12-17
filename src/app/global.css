@@ -2753,6 +2753,10 @@ div#service-section .service-boxes-wrapper .service-box .button img {
       justify-content: center !important;
   }
 
+  .choose-section .logoes-slider {
+    justify-content: flex-start !important;
+  }
+
 }
 
 
