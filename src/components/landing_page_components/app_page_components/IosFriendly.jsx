@@ -23,20 +23,20 @@ const IosFriendly = () => {
     ];
 
   return (
-    <main className="flex flex-col gap-5 py-20 translate-y-[10%] md:translate-y-0">
-      <h1 className="w-full text-center text-2xl font-bold tracking-wide md:text-5xl">
-        iOS-Friendly Devices
-      </h1>
+    <main className="flex flex-col gap-5 ct-container" id="ios-device">
 
-      <p className="poppins-light font-light text-[14px] w-full px-4 text-center text-xl md:mx-auto md:w-[70%] md:px-0">
-        At Pulse Marketing, we build scalable, robust, and high-performance
-        applications for various iOS devices, like iPhones, iPads, Apple
-        Watches, and more. Our versatility and dynamic solutions have helped us
-        build a strong reputation as the trusted name for Apple watch app
-        development.
-      </p>
+      <div className="heading-wrapper">
+        <h3>iOS-Friendly Devices</h3>
+        <p>
+          At Pulse Marketing, we build scalable, robust, and high-performance
+          applications for various iOS devices, like iPhones, iPads, Apple
+          Watches, and more. Our versatility and dynamic solutions have helped us
+          build a strong reputation as the trusted name for Apple watch app
+          development.
+        </p>
+      </div>
 
-      <div className="flex flex-col gap-5 md:flex-row md:justify-between md:w-[70%] md:mx-auto mt-14">
+      <div className="flex flex-col gap-5 md:flex-row md:justify-between md:w-[70%] md:mx-auto mt-5">
         {data.map((item) => (
         <div key={item} className="flex flex-col items-center gap-5 md:gap-2">
           <Image
@@ -49,6 +49,7 @@ const IosFriendly = () => {
         </div> 
         ))}
       </div>
+      
     </main>
   );
 };

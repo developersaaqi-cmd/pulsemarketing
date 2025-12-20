@@ -4,19 +4,17 @@ import Image from "next/image";
 
 const Offerings = () => {
   return (
-    <div className="offerings translate-y-[11%] md:-translate-y-5 md:py-5">
-      <div className="top flex flex-col gap-6">
-        <h1 className="text-2xl md:text-5xl font-bold tracking-wide text-center w-full">Pulse Marketing Offerings</h1>
-        <p className="poppins-light font-light text-[11px] md:text-[14px] text-center w-full md:w-[70%] md:mx-auto px-4 md:px-0">
-          We are the most sought-after destination for iOS development services
+    <div className="offerings my-[40px] md:my-[40px] lg:my-[100px] ct-container" id="offering">
+      <div className="heading-wrapper">
+        <h3>Pulse Marketing Offerings</h3>
+        <p>We are the most sought-after destination for iOS development services
           in Canada. At our native iOS app development company, we use advanced
           tools and the latest technologies to build highly functional
           applications for businesses worldwide. From Flutter app development to
           Swift app development, you name it, and we will deliver quality
           results. Contact our team of experts to learn more about each
           technology we use and understand which one will be best suited for
-          your app development process.
-        </p>
+          your app development process.</p>
       </div>
       <div className="offering-cards md:mx-auto md:mt-8">
         <div className="offeringCard">

@@ -3,6 +3,7 @@ import React from "react";
 import HeroSection from "../../../components/landing_page_components/about_page_components/HeroSection";
 import AboutText from "../../../components/landing_page_components/about_page_components/AboutText";
 import Testimonial from "@/components/landing_page_components/app_page_components/Testimonials";
+import NewTestimonial from "@/components/landing_page_components/app_page_components/New-Testimonial-section";
 import FaqSection from "@/components/landing_page_components/app_page_components/FaqSection";
 import Footer from "@/components/layout/Footer";
 import Calender from '@/components/Calender/Calender';
@@ -17,17 +18,12 @@ const AboutUs = () => {
       <HeroSection />
       <AboutText />
       <BrandLogoCards />
-      <div className="relative top-[240px] md:top-0">
-        <IanSection />
+      <IanSection />
+      <div className="my-[40px] md:my-[40px] lg:my-[100px]">
+        <NewTestimonial />
       </div>
-      <div className="mt-60 md:mt-0">
-        <Testimonial />
-      </div>
-      {/* <div className='md:mt-0 mt-8'> 
-        <OurBlog/>
-        </div> */}
       <FaqSection />
-      <div className="-mt-12 md:-mt-16">
+      <div className="">
         <Calender />
       </div>
       <Footer />

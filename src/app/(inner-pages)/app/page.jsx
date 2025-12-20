@@ -5,6 +5,7 @@ import AppDevelopmentSection from '@/components/landing_page_components/app_page
 import RevolvingIndustries from '@/components/landing_page_components/app_page_components/RevolvingIndustries';
 import AndriodSection from '@/components/landing_page_components/app_page_components/AndriodSection';
 import Testimonials from '@/components/landing_page_components/app_page_components/Testimonials';
+import NewTestimonial from '@/components/landing_page_components/app_page_components/New-Testimonial-section'
 import FaqSection from '@/components/landing_page_components/app_page_components/FaqSection';
 // import OurBlog from '@/components/landing_page_components/app_page_components/OurBlog';
 import Footer from '@/components/layout/Footer';
@@ -23,11 +24,12 @@ const App = () => {
             <AppDevelopmentSection/>
             <RevolvingIndustries/>
             {/* <AndriodSection/> */}
-            <Testimonials/>
+            {/* <Testimonials/> */}
+            <div className="app-page-testimonial">
+              <NewTestimonial/>
+            </div>
             <FaqSection/>
-             <div className='md:-mt-10 -mt-12'>
-        <Calender/>
-        </div>
+            <Calender/>
             {/* <OurBlog/> */}
             <Footer/>
         </main>

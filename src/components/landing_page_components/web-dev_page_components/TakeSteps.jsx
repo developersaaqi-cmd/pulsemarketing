@@ -21,7 +21,8 @@ const TakeSteps = () => {
 
   return (
     <main
-      className="mx-14 py-16"
+      className="ct-container my-[40px] md:my-[40px] lg:my-[100px]"
+      id="web-dev-staps"
       style={{
         backgroundImage: "url('/images/app_page_images/radial.png')",
         backgroundSize: "contain",
@@ -29,7 +30,7 @@ const TakeSteps = () => {
       }}
     >
       <div className="flex flex-wrap justify-between">
-        <div className="mb-12 flex w-full transform items-start justify-center transition-transform duration-700 ease-in-out hover:scale-105 md:mb-0 md:w-[28%]">
+        <div className="flex w-full transform items-start justify-center transition-transform duration-700 ease-in-out hover:scale-105 md:mb-0 md:w-[28%]">
           <Image
             src={"/images/web-dev_page_images/pulse-logo.webp"}
             width={350}

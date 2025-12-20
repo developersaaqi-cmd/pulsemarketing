@@ -7,20 +7,12 @@ export default function IanSection(){
         <> 
         {/* main section */}
         <main
-        // style={{
-        //     backgroundImage: `url(/images/about_page_images/ian-slater-about.jpg)`,
-        //     backgroundRepeat:'no-repeat',
-        //     backgroundSize:'cover',
-
-        // }}
-         className="md:h-[900px] h-[2100px] md:mt-16 w-full mt-8 flex-col items-center md:gap-4 gap-0 flex">
-            {/* heading */}
-            <div className="md:w-[1200px] w-full h-[80px] md:h-[50px] flex items-center justify-center">
-                <h1 className="md:text-5xl text-4xl font-bold">About Us</h1>
+         className="flex-col items-center md:gap-4 gap-0 flex ct-container">
+            <div id="center" className="heading-wrapper">
+                <h3>About Us</h3>
             </div>
-            {/* left text section */}
-            <div className="md:w-[1200px] mt-0 w-[90%] flex flex-col items-center justify-between md:flex-row h-full md:h-[720px]">
-                <div className="flex flex-col p-5 md:p-4 md:h-full h-[70%] w-full md:w-[58%]">
+            <div className="flex flex-col items-center justify-between md:flex-row" id="about-content">
+                <div className="flex flex-col">
                     <h2 className="text-xl font-semibold">Principal, Ian Slater</h2>
                     <span className="text-lg mt-3">Ian Slater<br/></span>
                     <p className="mt-3 md:text-md text-xs md:leading-tight leading-snug">
@@ -70,7 +62,7 @@ export default function IanSection(){
                     </div>
                 </div>
                 {/* right image section */}
-                <div className="bg-gray-500 md:h-[670px] md:mt-0 -mt-10 h-[22%] w-full md:w-[40%]">
+                <div>
                     <Image 
                     src={"/images/about_page_images/about-sec-pic.jpg"} 
                     height={0} width={670} alt="ian slater"

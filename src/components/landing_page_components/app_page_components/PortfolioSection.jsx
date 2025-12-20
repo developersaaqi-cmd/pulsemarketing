@@ -51,22 +51,14 @@ export default function PortfolioSection() {
   };
 
   return (
-    <main className="relative w-full md:-mt-[100px] mb-5">
-      <div
-        style={{
-          backgroundImage: "url('/images/services_page_images/circle.png/')",
-          backgroundSize: "cover",
-          transform: "translateY(-50%)",
-        }}
-        className="h-[40vh] md:h-[38rem]"
-      />
-      <div className="absolute top-0 md:top-12 z-10 flex w-full flex-col items-center justify-center">
-        <div className="z-10 md:mt-8 text-center">
-          {/* <h1 className="text-2xl md:text-5xl font-bold tracking-wide">Our Portfolio</h1> */}
-        </div>
+    <main className="relative w-full">
+      <div className='section-circle'>
+        <img src="/new-circle.webp" />
+      </div>
+      <div className="flex w-full flex-col items-center justify-center ct-container app-page" id="service-circle-after">
 
         {/* app portfolio images */}
-        <div className="w-full px-4 md:px-0 md:max-w-[1000px] md:mx-auto mt-12 pl-6 pb-4 md:pl-14 md:pb-16">
+        <div className="w-full">
           <Slider {...settings}>
             {portfolioItems.map((item, index) => (
               <div

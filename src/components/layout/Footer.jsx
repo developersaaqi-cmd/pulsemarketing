@@ -31,7 +31,7 @@ const Footer = () => {
 
         const div = document.createElement("div");
         div.className = "calendly-inline-widget";
-        div.dataset.url = "https://calendly.com/ianpslater/20min";
+        div.dataset.url = "https://calendly.com/ianpslater/powermeeting";
         div.style.minWidth = "500px";
         div.style.height = "1200px";
         container.appendChild(div);
@@ -254,6 +254,7 @@ const Footer = () => {
             href="https://wa.me/17789607426"
             target="_blank"
             className="fixed bottom-20 right-6 z-[9999] flex items-center justify-center rounded-full bg-green-500 p-4 text-white shadow-lg transition duration-300 hover:bg-green-600"
+            id="whatsapp-fixed-btn-ct"
           >
             <AiOutlineWhatsApp className="text-3xl" />
           </Link>
@@ -262,6 +263,7 @@ const Footer = () => {
         <button
           onClick={toggleForm}
           className="poppins-regular contact-btn2 fixed bottom-5 right-6 z-[9999] mt-8 flex items-center justify-center rounded-3xl border-none bg-white px-4 py-2 text-black outline-none ease-in-out hover:bg-my-blue-gradient hover:text-white hover:transition-all"
+          id="fixed-booknow-btn-ct"
         >
           Book Now
          <div className="ml-0 h-full rounded-full bg-[#6EE3D7] p-[2px]">

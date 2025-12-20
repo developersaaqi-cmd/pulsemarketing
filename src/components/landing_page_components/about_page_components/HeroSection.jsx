@@ -130,13 +130,13 @@ const HeroSection = () => {
           backgroundAttachment: "fixed",
           backgroundPosition: "center",
         }}
-        className="relative cro-home pb-[400px] md:pb-[250px]"
+        className="relative cro-home"
       >
         <div className="absolute inset-0 bg-black/30 bg-opacity-50"></div>
 
         <Navbar />
-        <div className="relative flex h-[90vh] w-full flex-col items-center justify-center md:h-[105vh]">
-          <div className="z-10 flex w-[80%] translate-y-[4.2rem] flex-col md:w-[70%] md:translate-y-[0rem]">
+        <div className="relative flex w-full flex-col items-center justify-center">
+          <div className="z-10 flex flex-col ct-container" id="innerpages-banner">
             <div className="mb-5 flex">
               <Link
                 href={
@@ -211,7 +211,7 @@ const HeroSection = () => {
 
             <div className="mt-5">
               <Link
-                href={"https://calendly.com/ianpslater/20min"}
+                href={"https://calendly.com/ianpslater/powermeeting"}
                 target="_blank"
               >
                 <button

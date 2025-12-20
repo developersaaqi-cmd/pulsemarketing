@@ -17,27 +17,20 @@ const TechStack = () => {
     { img: "/images/web-dev_page_images/logos (9).png" },
   ];
   return (
-    <main className="px-14 py-10 md:mt-0 -mt-40">
-      <div className="flex w-full flex-col items-center justify-center">
-        
-          <h2 className="text-center text-2xl font-bold tracking-wide md:pb-3 md:text-5xl">
-            Web Development <br /> Technology Stack
-          </h2>
-        
-        
-          <p className="my-4 text-center text-[16px]">
-            At Pulse, we specialize in building cutting-edge web solutions
-            tailored to your business needs. Our technology stack empowers your
-            vision with scalable, fast, and secure websites.
-            <br />
-            From modern frameworks to robust backend systems, we bring
-            innovation to every project, ensuring a seamless online presence.
-          </p>
-        
+    <main className="ct-container my-[40px] md:my-[40px] lg:my-[100px]" id="technoly-section">
+      <div className="heading-wrapper">
+        <h3>Web Development <br /> Technology Stack</h3>
+        <p>
+          At Pulse, we specialize in building cutting-edge web solutions
+          tailored to your business needs. Our technology stack empowers your
+          vision with scalable, fast, and secure websites.
+          From modern frameworks to robust backend systems, we bring
+          innovation to every project, ensuring a seamless online presence.
+        </p>
       </div>
 
       <div
-        className="mx-auto mt-10  flex flex-wrap place-items-center justify-between gap-2"
+        className="mx-auto flex flex-wrap place-items-center justify-between gap-5"
         style={{
           backgroundImage: "url('/images/app_page_images/radial.png')",
           backgroundSize: "contain",
@@ -48,8 +41,8 @@ const TechStack = () => {
           <motion.div
             key={index}
             initial={{
-              y: 300,
-              opacity: 0,
+              y: 0,
+              opacity: 1,
             }}
             whileInView={{
               y: 0,
@@ -61,7 +54,7 @@ const TechStack = () => {
               ease: "easeInOut",
             }}
             viewport={{ once: false, amount: 0.2 }}
-            className="flex-grow basis-[calc(33.333%-10px)] md:basis-0 lg:mt-12"
+            className="technology-boxes"
           >
             <Image
               key={index}

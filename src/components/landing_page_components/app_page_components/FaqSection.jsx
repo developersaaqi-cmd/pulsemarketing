@@ -89,35 +89,31 @@ const FAQSection = () => {
   };
 
   return (
-    <div className="flex w-full flex-col gap-4 px-6 pb-18 pt-6 text-white md:mx-auto md:w-[1200px] md:px-0 lg:flex-col lg:justify-between">
+    <div className="flex w-full flex-col gap-4 text-white mx-auto md:w-[1200px] max-w-[90%] lg:flex-col lg:justify-between">
       {/* Left Column */}
       <motion.div
-        initial={isDesktop ? { x: -300, opacity: 0 } : {}}
+        initial={isDesktop ? { x: 0, opacity: 1 } : {}}
         whileInView={isDesktop ? { x: 0, opacity: 1 } : {}}
         transition={
           isDesktop ? { delay: 0.5, duration: 0.5, ease: "easeInOut" } : {}
         }
         viewport={isDesktop ? { once: false, amount: 0.2 } : {}}
-        className="w-full space-y-4 md:flex md:ml-3 md:flex-col lg:w-[100%]"
-      >
-        <p className="text-sm uppercase">
-          {" "}
-          <span className="mr-2 md:text-left text-cyan-500">•</span>FAQs
-        </p>
+        className="w-full space-y-4 md:flex md:flex-col lg:w-[100%]"
+      > 
 
-        <h2 className="mb-4 text-3xl font-semibold leading-tight md:text-4xl">
-          Everything You <br className='md:hidden' /> Need to Know
-        </h2>
-
-        <p className="mb-6 text-gray-300">
-          Have questions about how we can help your business grow?<br /> Check out our
-          FAQs for clear insights into our services and processes.
-        </p>
+        <div className="heading-wrapper" id="center-span-heading">
+          <span><span className="mr-2 md:text-left text-cyan-500">•</span>FAQs</span>
+          <h3>Everything You Need to Know</h3>
+          <p>
+            Have questions about how we can help your business grow?<br /> Check out our
+            FAQs for clear insights into our services and processes.
+          </p>
+        </div>
       </motion.div>
 
       {/* Right Column */}
       <motion.div
-        initial={isDesktop ? { x: 300, opacity: 0 } : {}}
+        initial={isDesktop ? { x: 0, opacity: 1 } : {}}
         whileInView={isDesktop ? { x: 0, opacity: 1 } : {}}
         transition={
           isDesktop ? { delay: 0.5, duration: 0.5, ease: "easeInOut" } : {}
@@ -128,9 +124,10 @@ const FAQSection = () => {
           backgroundImage: "url('/images/app_page_images/radial.png')",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
-          padding: "10px",
+          padding: "10px 0px 0px 0px",
           borderRadius: "8px",
         }}
+        id="ct-faq"
       >
         {faqs.map((faq, index) => (
           <div

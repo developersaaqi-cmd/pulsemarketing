@@ -34,14 +34,14 @@ const Calender = () => {
   return (
     <>
       <main
-        className="flex w-full md:pb-0 pb-10 justify-center px-4 md:px-10 md:py-16"
+        className="flex w-full justify-center mt-[40px] md:mt-[40px] lg:mt-[100px]"
         style={{
           backgroundImage: "url('/images/app_page_images/radial.png')",
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="flex w-full flex-col items-center justify-between lg:w-[100%] lg:flex-col">
+        <div className="flex w-full flex-col items-center justify-between lg:w-[100%] lg:flex-col ct-container">
           {/* Left Side Content */}
           {/* <div className="mb-14 w-full px-8 text-center lg:mb-0 lg:w-[50%] lg:px-0 lg:text-left">
           </div> */}

@@ -7,18 +7,20 @@ const Services = () => {
   const isDesktop = typeof window !== "undefined" && window.innerWidth >= 768;
   return (
     <main
-      className="mx-10 py-16 md:mx-14"
+      className="ct-container"
+      id="web-service-boxes"
       style={{
         backgroundImage: "url('/images/app_page_images/radial.png')",
         backgroundSize: "contain",
         backgroundRepeat: "no-repeat",
       }}
     >
-      
-        <h2 className="text-left text-4xl font-bold tracking-wide">Services</h2>
-      
 
-      <div className="mt-8 flex flex-col flex-wrap items-center justify-between gap-4 md:flex-row">
+      <div className="heading-wrapper">
+        <h3>Services</h3>
+      </div>
+
+      <div className="flex flex-col flex-wrap items-center justify-between gap-4 md:flex-row">
         {[
           {
             title: "Website Design and Development",
