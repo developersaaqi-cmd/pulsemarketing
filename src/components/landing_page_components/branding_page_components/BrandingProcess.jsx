@@ -6,23 +6,24 @@ import { motion } from "motion/react";
 const BrandingProcess = () => {
   return (
     <main
-      className="-mt-40 w-full px-6 py-16 md:mx-auto md:-mt-10 md:w-[1200px] md:px-0"
+      className="ct-container"
+      id="branding-process"
       style={{
         backgroundImage: "url('/images/app_page_images/radial.png')",
         backgroundSize: "contain",
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="mx-auto flex-col flex w-full items-center justify-center text-center">
-        <h2 className="mb-3 mt-40 text-center text-xl font-bold tracking-wide md:text-5xl">
-          Our Branding Process
-        </h2>
-        <p>At Pulse Marketing, we create impactful branding that strengthens your business identity and drives growth.
-           Our streamlined process ensures a smooth transition from concept to launch.
-           </p>
+
+      <div id="center" className="heading-wrapper">
+        <h3>Our Branding Process</h3>
+        <p>
+          At Pulse Marketing, we create impactful branding that strengthens your business identity and drives growth.
+          Our streamlined process ensures a smooth transition from concept to launch.
+        </p>
       </div>
 
-      <div className="mt-8 flex flex-wrap items-center justify-between gap-3 px-4 md:gap-0 md:px-0">
+      <div className="mt-10 flex flex-wrap items-center justify-between gap-3 px-4 md:gap-0 md:px-0" id="seo-gird-boxes">
         {/* First row */}
         <div className="flex w-full flex-wrap justify-between gap-6">
           {/* card one  */}

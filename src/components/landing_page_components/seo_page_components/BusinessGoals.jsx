@@ -6,20 +6,19 @@ import { motion } from "motion/react";
 const BusinessGoals = () => {
   return (
     <main
-      className="mt-[200px] w-full px-6 py-16 md:mx-auto md:mt-0 md:w-[1200px] md:px-0"
+      className="ct-container my-[40px] md:my-[40px] lg:my-[100px]"
       style={{
         backgroundImage: "url('/images/app_page_images/radial.png')",
         backgroundSize: "contain",
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="mx-auto flex w-full items-center justify-center text-center">
-        <h2 className="mb-3 mt-40 text-center text-xl font-bold tracking-wide md:text-5xl">
-          What We Offer: SEO Services That Deliver
-        </h2>
+
+      <div id="center" className="heading-wrapper">
+        <h3>What We Offer: SEO Services That Deliver</h3>
       </div>
 
-      <div className="mt-8 flex flex-wrap items-center justify-between gap-3 px-4 md:gap-0 md:px-0">
+      <div className="mt-10 flex flex-wrap items-center justify-between gap-3 px-4 md:gap-0 md:px-0" id="seo-gird-boxes">
         {/* First row */}
         <div className="flex w-full flex-wrap justify-between gap-6">
           {/* card one  */}

@@ -14,38 +14,22 @@ const HeroSection = () => {
   const [budget, setBudget] = useState(5000);
 
   return (
-    <React.Fragment>
-      <main
-        style={{
-          backgroundImage:
-            "url('/images/branding_page_images/branding-hero.png')",
-          backgroundSize: "cover",
-          backgroundAttachment: "fixed",
-          backgroundPosition: "center",
-        }}
-        className="ct-banner cro-home pb-[150px] md:pb-[200px]"
-      >
-        <Navbar />
-        <div className="relative mx-auto pt-[120px] flex h-[75vh] w-[1200px] flex-row items-center justify-between md:h-[100vh] md:pt-[0px]">
-          {/* hero heading  */}
-          <div
-            // initial={{
-            //   x: -300,
-            //   opacity: 0,
-            // }}
-            // whileInView={{
-            //   x: 0,
-            //   opacity: 1,
-            // }}
-            // transition={{
-            //   delay: 0.5,
-            //   duration: 0.5,
-            //   ease: "easeInOut",
-            // }}
-            // viewport={{ once: false, amount: 0.2 }}
-            className="md:w-[50%] flex-col px-8 md:px-0"
-          >
-            <div className="mb-5 flex">
+    <main
+      style={{
+        backgroundImage: "url('/images/branding_page_images/branding-hero.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundAttachment: "fixed",
+        backgroundPosition: "center",
+      }}
+      className="relative cro-home"
+    >
+      <div className="absolute inset-0 bg-black/30 bg-opacity-50"></div>
+
+      <Navbar />
+      <div className="relative flex w-full flex-col items-center justify-center ct-container" id="service-page-banner">
+        <div className="z-10 flex flex-col">
+          <div className="mb-5 flex">
             <Link
               href={
                 "https://www.bbb.org/ca/bc/vancouver/profile/digital-marketing/pulse-marketing-inc-0037-2428735/#sealclick"
@@ -55,7 +39,7 @@ const HeroSection = () => {
               <Image
                 alt="image"
                 className="mr-8"
-                src={"/accrebited-bussiness-logo2.png"}
+                src={"/images/cro_page_images/bbb.png"}
                 width={125}
                 height={125}
                 loading="eager"
@@ -70,33 +54,38 @@ const HeroSection = () => {
             >
               <Image
                 alt="image"
-                src={"/google-review-logo2.png"}
+                src={"/images/cro_page_images/google.png"}
                 width={125}
                 height={125}
                 loading="eager"
               />
             </Link>
           </div>
-            <div className="mb-2 flex w-auto items-center gap-1">
-              <Image
-                src="/images/services_page_images/blue-dot.png"
-                alt="blue-dot"
-                width={20}
-                height={20}
-                loading="eager"
-              />
+          <div className="-ml-[4px] mb-2 flex items-center gap-1 md:-ml-[5px]">
+            <Image
+              src="/images/services_page_images/blue-dot.png"
+              alt="blue-dot"
+              width={20}
+              height={20}
+              loading="eager"
+            />
+            <p>Logo Design & Branding</p>
+          </div>
 
-              <p>Logo Design & Branding</p>
-            </div>
+          <h2
+            className="pb-2 text-3xl font-bold capitalize text-white md:text-5xl"
+            style={{ lineHeight: "1.2" }}
+          >
+            Full-Service Branding <br />Agency With A Difference
+          </h2>
 
-            {/* heading main  */}
+          {/* <p className="mx-auto abt-text mt-2 w-[100%] text-left text-xs font-medium leading-snug text-gray-100 md:text-xl">
+            We help businesses scale faster through revenue-focused
+            strategies, cutting-edge web development, and data-driven
+            marketing solutions.
+          </p> */}
 
-            <h2 className="text-left text-2xl font-bold leading-tight md:text-5xl">
-              Full-Service Branding <br />
-              Agency With A Difference
-            </h2>
-
-            <div className="mt-3 flex w-full flex-col flex-wrap gap-2 text-left md:flex-row md:items-center md:gap-3">
+          <div className="mt-3 flex w-full flex-col flex-wrap gap-2 text-left md:flex-row md:items-center md:gap-3">
             <p> Clients rate our team and work</p>
             <div className="flex text-yellow-500">
               <FaStar />
@@ -110,9 +99,10 @@ const HeroSection = () => {
               based on 86 client reviews
             </p>
           </div>
+
           <div className="mt-5">
             <Link
-              href={"https://calendly.com/ianpslater/20min"}
+              href={"https://calendly.com/ianpslater/powermeeting"}
               target="_blank"
             >
               <button
@@ -127,31 +117,13 @@ const HeroSection = () => {
               {/* <PrimaryBtn text={"Book now"} /> */}
             </Link>
           </div>
-          </div>
-
-          {/* hero form  */}
-          <div
-            // initial={{
-            //   scale: 0.1,
-            //   opacity: 0,
-            // }}
-            // whileInView={{
-            //   scale: 1,
-            //   opacity: 1,
-            // }}
-            // transition={{
-            //   delay: 0.5,
-            //   duration: 0.5,
-            //   ease: "easeInOut",
-            // }}
-            // viewport={{ once: false, amount: 0.2 }}
-            className="border-1 absolute top-20 right-0 z-20 w-full max-w-md rounded-3xl border-white bg-black bg-opacity-30 p-6 text-white shadow-xl backdrop-blur-md md:mt-10 md:w-[40%] md:px-8 md:py-3"
-          >
-            <HeroForm />
-          </div>
         </div>
-      </main>
-    </React.Fragment>
+         {/* hero form  */}
+        <div className="border-1 w-full rounded-3xl border-white bg-black bg-opacity-30 p-6 text-white shadow-xl backdrop-blur-md md:px-8 md:py-3">
+          <HeroForm />
+        </div>
+      </div>
+    </main>
   );
 };
 

@@ -122,8 +122,8 @@
 export default function Team() {
   return (
     <section id="team">
-      <div className="heading">
-        <h5>Our Team</h5>
+      <div className="heading-wrapper" id="center">
+          <h3>Our Team</h3>
       </div>
       <div className="team-wrapper">
         <div className="item">

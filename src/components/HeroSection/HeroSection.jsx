@@ -30,7 +30,7 @@ const HeroLeftContent = () => {
 
         const div = document.createElement("div");
         div.className = "calendly-inline-widget";
-        div.dataset.url = "https://calendly.com/ianpslater/20min";
+        div.dataset.url = "https://calendly.com/ianpslater/powermeeting";
         div.style.minWidth = "500px";
         div.style.height = "1200px";
         container.appendChild(div);
@@ -153,7 +153,7 @@ const HeroRightContent = ({ showForm, toggleForm }) => {
 
         const div = document.createElement("div");
         div.className = "calendly-inline-widget";
-        div.dataset.url = "https://calendly.com/ianpslater/20min";
+        div.dataset.url = "https://calendly.com/ianpslater/powermeeting";
         div.style.minWidth = "500px";
         div.style.height = "1200px";
         container.appendChild(div);

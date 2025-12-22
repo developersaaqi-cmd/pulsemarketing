@@ -3,8 +3,8 @@
 export default function YoutubeReviews() {
   return (
     <section id="yt-video">
-      <div className="heading">
-        <h5>Clients Reviews</h5>
+      <div className="heading-wrapper" id="center">
+          <h3>Clients Reviews</h3>
       </div>
       <div className="video-wrapper">
         <div className="item">

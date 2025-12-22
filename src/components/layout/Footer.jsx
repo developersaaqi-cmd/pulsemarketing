@@ -80,9 +80,9 @@ const Footer = () => {
               { name: "About", link: "/about-us" },
               { name: "App", link: "/app" },
               { name: "Portfolio", link: "/our-work" },
-              { name: "Insights", link: "/blog" },
+              { name: "Insights", link: "/our-blog" },
               { name: "CRO Calculator", link: "/cro/#cal" },
-              {name: "Power Signature", link: "/#power-signature"}
+              // {name: "Power Signature", link: "/#power-signature"}
             ].map((item, index) => (
               <Link
                 key={index}

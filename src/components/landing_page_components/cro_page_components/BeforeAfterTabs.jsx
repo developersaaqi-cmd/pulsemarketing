@@ -4,17 +4,17 @@ import { useState } from "react";
 const tabData = [
   {
     id: "tab01",
-    image: "/images/cro_page_images/result01.png",
+    image: "/cro-01.jpg",
     label: "Result 01",
   },
   {
     id: "tab02",
-    image: "/images/cro_page_images/result02.png",
+    image: "/cro-02.jpg",
     label: "Result 02",
   },
   {
     id: "tab03",
-    image: "/images/cro_page_images/result03.png",
+    image: "/cro-03.jpg",
     label: "Result 03",
   },
 ];
@@ -25,7 +25,9 @@ export default function BeforeAfterTabs() {
   return (
     <section id="tabs-before-wrapper">
       <div className="inner-wrapper-ct">
-        <h4>Before & After</h4>
+        <div className="heading-wrapper" id="center">
+          <h3>Before & After</h3>
+        </div>
 
         <section id="before-after-tabs">
           {tabData.map((tab) => (

@@ -101,37 +101,37 @@ export default function PortfolioSlider() {
   ];
 
   return (
-    <div className="w-full min-h-screen md:mt-0 mt-28 relative overflow-hidden py-16">
-      <Swiper
-        modules={[EffectCoverflow, Autoplay]}
-        effect="coverflow"
-        grabCursor={true}
-        centeredSlides={true}
-        slidesPerView="auto"
-        initialSlide={2}
-        loop={true}
-        coverflowEffect={{
-          rotate: 0,
-          stretch: 0,
-          depth: 100,
-          modifier: 2,
-          slideShadows: false,
-        }}
-        autoplay={{
-          delay: 3000,
-          disableOnInteraction: false,
-        }}
-        className="w-full -mt-10"
-      >
+    <div className="relative w-full">
+    <Swiper
+      modules={[EffectCoverflow, Autoplay]}
+      effect="coverflow"
+      grabCursor={true}
+      centeredSlides={true}
+      slidesPerView="auto"
+      initialSlide={2}
+      loop={true}
+      coverflowEffect={{
+        rotate: 0,
+        stretch: 0,
+        depth: 100,
+        modifier: 2,
+        slideShadows: false,
+      }}
+      autoplay={{
+        delay: 3000,
+        disableOnInteraction: false,
+      }}
+      className="-mt-12"
+    >
         {images.map((item, index) => (
-          <SwiperSlide key={index} className="w-[280px] md:w-[370px] mx-5">
+          <SwiperSlide key={index} className="mx-5 w-[280px] md:w-[370px]">
             <div className="relative group">
               <a rel="noopener noreferrer">
-                <div className="relative overflow-hidden rounded-xl cursor-default transition-all duration-300 transform group-hover:scale-[1.02]">
+                <div className="relative transform overflow-hidden rounded-xl transition-all duration-300 group-hover:scale-[1.02]">
                   <img
                     src={item.src}
                     alt={item.src}
-                    className="w-full md:w-[360px] h-[250px] md:h-[360px] object-cover"
+                    className="h-[250px] w-full object-cover md:h-[360px]"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>

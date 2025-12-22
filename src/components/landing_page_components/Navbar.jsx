@@ -83,7 +83,7 @@ export default function Navbar() {
 
         const div = document.createElement("div")
         div.className = "calendly-inline-widget"
-        div.dataset.url = "https://calendly.com/ianpslater/20min"
+        div.dataset.url = "https://calendly.com/ianpslater/powermeeting"
 
         // Responsive sizing based on screen width
         if (window.innerWidth < 640) {

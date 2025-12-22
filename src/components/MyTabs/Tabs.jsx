@@ -4,7 +4,6 @@ import { useState, useEffect, useCallback } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { baseURL } from "../../../utils/useRequest";
-// import { Reveal } from "@/utils/Reveal";
 import PrimaryBtn from "../landing_page_components/PrimaryBtns/PrimaryBtn";
 import { useRouter } from "next/navigation";
 
@@ -102,6 +101,7 @@ export default function Tabs() {
     return (
       <div
         className="grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-8 lg:grid-cols-2"
+        id="home-pr-tabs"
         style={{
           backgroundImage: "url('/images/app_page_images/radial.png')",
           backgroundSize: "contain",
@@ -154,10 +154,10 @@ export default function Tabs() {
 
                 {/* Button */}
                 <div className="md:mr-0 mr-12">
-                <PrimaryBtn
-                  text="View Site"
-                  onClick={() => window.open(item?.section, "_blank")}
-                />
+                  <PrimaryBtn
+                    text="View Site"
+                    onClick={() => window.open(item?.section, "_blank")}
+                  />
                 </div>
               </div>
             </div>
@@ -177,9 +177,8 @@ export default function Tabs() {
       }}
     >
       <div className="ct-container">
-
         <div className="heading-wrapper mb-[30px]">
-            <h3>Sales-Driven Conversion Optimized Platforms.</h3>
+          <h3>Sales-Driven Conversion Optimized Platforms.</h3>
         </div>
 
         <div className="mx-auto flex flex-wrap justify-start gap-8 lg:w-[100%]">
@@ -196,7 +195,11 @@ export default function Tabs() {
           ))}
         </div>
 
-        <div className="mx-auto lg:w-[100%] mt-[30px]">
+        <div
+          className={`mx-auto lg:w-[100%] mt-[30px] ${
+            activeTab === 9 ? "app-tab" : "" // Add the class only when "Apps" tab is active
+          }`}
+        >
           {renderTabContent()}
         </div>
       </div>

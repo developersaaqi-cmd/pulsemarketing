@@ -3,15 +3,11 @@ import React from "react";
 
 const Results = () => {
   return (
-    <div className="mb-10 md:-mt-24 md:py-20">
-      {/*Heading*/}
-      <div>
-        <h1 className="mb-3 mt-16 text-center text-xl font-bold tracking-wide md:text-5xl">
-          Real Results, Real Growth{" "}
-        </h1>
+    <div className="ct-container my-[40px] md:my-[40px] lg:my-[100px]">
+      <div id="center" className="heading-wrapper">
+        <h3>Real Results, Real Growth</h3>
       </div>
-      {/*Grid of results*/}
-      <div className="mt-16 flex w-[100%] flex-col items-center justify-center gap-10 md:flex-row md:gap-0">
+      <div className="mt-5 md:mt-10 flex w-[100%] flex-col items-center justify-center gap-10 md:flex-row md:gap-0">
             {/*First Result*/}     
           <div className="w-full md:w-[25%]">
           <div className="flex items-center justify-center">

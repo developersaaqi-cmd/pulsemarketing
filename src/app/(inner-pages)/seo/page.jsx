@@ -7,6 +7,7 @@ import SeoProcess from '../../../components/landing_page_components/seo_page_com
 import Results from '../../../components/landing_page_components/seo_page_components/Results'
 import Rank from '../../../components/landing_page_components/seo_page_components/Rank'
 import Testimonials from '@/components/landing_page_components/app_page_components/Testimonials';
+import NewTestimonials from '@/components/landing_page_components/app_page_components/New-Testimonial-section';
 import FAQSection from '@/components/landing_page_components/seo_page_components/SeoFaq';
 // import OurBlog from '@/components/landing_page_components/app_page_components/OurBlog';
 import Footer from '@/components/layout/Footer';
@@ -21,10 +22,11 @@ const page = () => {
             <SeoProcess/>
             <Results/>
             <Strategies/>
-            <div className='md:mt-0 mt-3'>
             <Rank/>
+            {/* <Testimonials/> */}
+            <div className="app-page-testimonial mt-[40px] md:mt-[80px]">
+              <NewTestimonials/>
             </div>
-            <Testimonials/>
             <FAQSection/>
             {/* <OurBlog/> */}
             <Calender/>

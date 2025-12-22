@@ -100,37 +100,39 @@
 
 export default function CroProcess1() {
   return (
-    <section id="croprocess">
-      <div className="heading">
-        <h5>CRO Process</h5>
-      </div>
-      <div className="process">
-        <div className="item">
-          <img src="/images/cro_page_images/icon0001 1.png" alt="" />
-          <p>Book your free CRO audit</p>
+    <main className="my-[40px] md:my-[40px] lg:my-[100px]">
+      <section id="croprocess">
+        <div className="heading-wrapper" id="center">
+            <h3>CRO Process</h3>
         </div>
-        <span>
-          <img src="/images/cro_page_images/down-arrow 1.png" alt="" />
-        </span>
-        <div className="item">
-          <img src="/images/cro_page_images/icon0003 1.png" alt="" />
-          <p>We analyze your site, data & visitor behavior</p>
+        <div className="process">
+          <div className="item">
+            <img src="/images/cro_page_images/icon0001 1.png" alt="" />
+            <p>Book your free CRO audit</p>
+          </div>
+          <span>
+            <img src="/images/cro_page_images/down-arrow 1.png" alt="" />
+          </span>
+          <div className="item">
+            <img src="/images/cro_page_images/icon0003 1.png" alt="" />
+            <p>We analyze your site, data & visitor behavior</p>
+          </div>
+          <span>
+            <img src="/images/cro_page_images/down-arrow 1.png" alt="" />
+          </span>
+          <div className="item">
+            <img src="/images/cro_page_images/icon0004 1.png" alt="" />
+            <p>We test & implement changes</p>
+          </div>
+          <span>
+            <img src="/images/cro_page_images/down-arrow 1.png" alt="" />
+          </span>
+          <div className="item">
+            <img src="/images/cro_page_images/004 1.png" alt="" />
+            <p>You get more revenue, same traffic</p>
+          </div>
         </div>
-        <span>
-          <img src="/images/cro_page_images/down-arrow 1.png" alt="" />
-        </span>
-        <div className="item">
-          <img src="/images/cro_page_images/icon0004 1.png" alt="" />
-          <p>We test & implement changes</p>
-        </div>
-        <span>
-          <img src="/images/cro_page_images/down-arrow 1.png" alt="" />
-        </span>
-        <div className="item">
-          <img src="/images/cro_page_images/004 1.png" alt="" />
-          <p>You get more revenue, same traffic</p>
-        </div>
-      </div>
-    </section>
+      </section>
+    </main>
   );
 }

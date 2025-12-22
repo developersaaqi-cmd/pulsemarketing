@@ -61,15 +61,13 @@ export default function DesignServicesSection() {
   ];
 
   return (
-    <section className=" px-0 py-16 text-white md:mx-auto md:w-[1200px] md:px-0 ">
-      <div className="mb-8 px-6 text-start md:px-0">
-        <h2 className="text-2xl font-medium leading-tight md:w-[80%] md:text-4xl lg:w-[80%]">
-          Custom Design Services Tailored To Your Unique <br/> Brand Identity.
-        </h2>
+    <section className="ct-container my-[40px] md:my-[40px] lg:my-[100px]" id="brading-tabs-ct">
+      <div className="heading-wrapper mb-[30px]">
+        <h3>Custom Design Services Tailored To Your Unique Brand Identity.</h3>
       </div>
 
       {/* Tabs */}
-      <div className="mb-8 flex justify-start px-10 md:px-0">
+      <div className="flex justify-start mb-[40px]">
         <Tabs
           value={activeTab}
           onChange={handleTabChange}
@@ -89,7 +87,7 @@ export default function DesignServicesSection() {
 
       {/* Tab Content */}
       <div
-        className="container mx-auto grid grid-cols-2 gap-6 md:grid-cols-4"
+        className="mx-auto grid grid-cols-2 gap-6 md:grid-cols-4"
         style={{
           backgroundImage: "url('/images/app_page_images/radial.png')",
           backgroundSize: "contain",
@@ -99,8 +97,8 @@ export default function DesignServicesSection() {
         {tabContent[activeTab].items.map((item, index) => (
           <motion.div
             initial={{
-              y: 300,
-              opacity: 0,
+              y: 0,
+              opacity: 1,
             }}
             whileInView={{
               y: 0,

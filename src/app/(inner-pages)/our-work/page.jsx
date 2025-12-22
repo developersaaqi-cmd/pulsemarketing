@@ -8,14 +8,11 @@ import Calender from '@/components/Calender/Calender';
 const page = () => {
   return (
     <main className='theme_bg_color'>
-        <HeroSection/>
-             <div className='md:-mt-16 -mt-12'>
-        <Calender/>
-        </div>
-        {/* <ImagesWorkSection/> */}
-              <div className="relative z-0">
-                <Footer/>
-              </div>
+      <HeroSection/>
+      <Calender/>
+      <div className="relative z-0">
+        <Footer/>
+      </div>
     </main>
 )
 }

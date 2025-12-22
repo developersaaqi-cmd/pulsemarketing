@@ -13,6 +13,7 @@ import {
 } from "@mui/material";
 import Link from "next/link";
 import PrimaryBtn from "../PrimaryBtns/PrimaryBtn";
+import Calculatoro from "@/components/landing_page_components/cro_page_components/cro-calculator";
 // import { AiOutlineInfoCircle } from "react-icons/ai";
 // import { Reveal } from "@/utils/Reveal";
 
@@ -157,7 +158,7 @@ export default function ConversionCalculator() {
 
 //         const div = document.createElement("div");
 //         div.className = "calendly-inline-widget";
-//         // div.dataset.url = "https://calendly.com/ianpslater/20min";
+//         // div.dataset.url = "https://calendly.com/ianpslater/powermeeting";
 //         div.style.minWidth = "500px";
 //         div.style.height = "1200px";
 //         container.appendChild(div);
@@ -172,48 +173,38 @@ export default function ConversionCalculator() {
 //   }, [showForm]);
   return (
     <>
-     <div
-        style={{
-          backgroundImage: "url('/images/services_page_images/circle.png/')",
-          backgroundSize: "cover",
-        }}
-        className="h-[43vh] z-99 -translate-y-[51%] transform md:h-[700px] md:translate-y-[-65%]"
-      />
-    <Container id="cal" className="relative md:-mt-[300px] md:h-[660px] h-[1200px] bottom-[380px] mt-18" maxWidth="lg" sx={{ bgcolor: "transparent", py: 6 }}>
-      <div className="md:mb-8 mb-3 flex flex-col items-center justify-center text-center">
-        <h2 className="mb-2 text-center poppins-medium text-2xl font-bold tracking-wide md:text-5xl">
-          Calculate The Value of CRO
-        </h2>
-        {/* <p>Reach your revenue goals with CRO.</p> */}
-        <p className="mb-8 md:text-normal text-xs">
-          Find out the ROI from conversion rate optimization with this
-          calculator.
-        </p>
+     <div className='section-circle'>
+        <img src="/new-circle.webp" />
       </div>
-      <div
-       className="md:h-[950px] overflow-hidden h-[1281px] md:w-[1300px] w-[100%]">
-       <iframe
+    <Container id="cal" className="" maxWidth="lg" sx={{ bgcolor: "transparent", py: 6 }}>
+      <div className="heading-wrapper">
+        <h3>Calculate The Value of CRO</h3>
+        <p>Find out the ROI from conversion rate optimization with this
+          calculator.</p>
+      </div>
+      <div className="">
+       {/* <iframe
         src="https://pulsemarketing.cloud/calculator/index.html"
         width="100%"
         height="100%"
-        style={{ border: "none",  borderRadius: "10px" }}
-    />
+        style={{ border: "none",  borderRadius: "10px" }} /> */}
+        <Calculatoro/>
       </div>
 
       {/* button below calculator */}
-      <div className="h-24 md:w-[93%] flex justify-center items-center w-[98%] md:-translate-y-[270%] md:mt-0 mt-5">
-         <Link href={"https://calendly.com/ianpslater/20min"} target="_blank">
+      <div className="calulator-btn">
+        <Link href={"https://calendly.com/ianpslater/powermeeting"} target="_blank">
           <button
               className="poppins-regular hvr-ripple-out md:text-xl flex items-center justify-center rounded-full border-none text-white bg-my-blue-gradient md:px-8 px-4 md:py-4 py-3 outline-none ease-in-out"
-           >
-             Book your free 20 min consultation
+            >
+              Book your free 20 min consultation
           </button>
-          </Link>
-         </div>
+        </Link>
+      </div>
 
         {/* fixed button */}
       <div className="md:inline hidden fixed bottom-36 md:bottom-5 right-3 md:left-6 z-[9999]">
-        <Link href={"https://calendly.com/ianpslater/20min"} target="_blank">
+        <Link href={"https://calendly.com/ianpslater/powermeeting"} target="_blank">
         <PrimaryBtn text={"Get My Free CRO Blueprint"} />
         </Link>
       </div>

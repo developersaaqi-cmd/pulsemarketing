@@ -9,17 +9,18 @@ import FaqSection from '@/components/landing_page_components/app_page_components
 import Footer from '@/components/layout/Footer';
 import Calender from '@/components/Calender/Calender';
 import BrandingProcess from '@/components/landing_page_components/branding_page_components/BrandingProcess'
+import NewTestimonials from '@/components/landing_page_components/app_page_components/New-Testimonial-section';
 const Branding = () => {
   return (
         <main className="theme_bg_color">
             <HeroSection/>
             <PortfolioSection/>
             <BrandingSection/>
-            <div className='md:mt-30 mt-10'>
             <DesignServicesSection/>
-            </div>
             <BrandingProcess/>
-            <Testimonials/>
+            <div className="app-page-testimonial mt-[40px] md:mt-[80px]">
+              <NewTestimonials/>
+            </div>
             <FaqSection/>
             {/* <OurBlog/> */}
             <Calender/>

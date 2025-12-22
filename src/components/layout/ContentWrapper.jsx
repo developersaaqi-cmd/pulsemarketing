@@ -36,21 +36,10 @@ const ContentWrapper = () => {
       <Newservice />
       {/* <Cards />  */}
       {/* <Video /> */}
-      <PowerSignatureSection/>
+      {/* <PowerSignatureSection/> */}
       {/* <Testimonials/> */}
       <NewTestimonail />
       <Calender />
-      {/* <div className="flex bg-black-2 w-full flex-col md:flex-row md:items-center md:justify-center text-center gap-3 py-4 md:py-2 mb-3 mt-[2rem] md:mt-0">
-        <p> Clients rate our team and work</p>
-        <div className="flex text-yellow-500 text-center justify-center items-center">
-          <FaStar />
-          <FaStar />
-          <FaStar />
-          <FaStar />
-        </div>
-        <p>4.8/5</p>
-        <p className="text-gray-500">based on 86 client reviews</p>
-      </div> */}
       <Footer />
     </div>
   );

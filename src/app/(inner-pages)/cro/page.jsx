@@ -22,46 +22,26 @@ import BeforeAfterTabs from "@/components/landing_page_components/cro_page_compo
 // import PulseDifferent from "@/components/landing_page_components/cro_page_components/PulseDifferent";
 import YoutubeReviews from "@/components/landing_page_components/cro_page_components/YoutubeReviews";
 import Team from "@/components/landing_page_components/cro_page_components/Team";
+import NewPricingSection from "@/components/landing_page_components/cro_page_components/New-pricing-section";
+import NewTestimonials from '@/components/landing_page_components/app_page_components/New-Testimonial-section';
 const page = () => {
   return (
     <main className="theme_bg_color">
       <HeroSection />
       <ConversionCalculator />
-      {/* <div
-        style={{
-          backgroundImage: "url('/images/services_page_images/circle.png/')",
-          backgroundSize: "cover",
-        }}
-        className="h-[43vh] translate-y-[-51%] transform md:h-[500px] md:translate-y-[-75%]"
-      />
-      <div ClassName="cro-calculator md:h-[674px] overflow-hidden m-auto h-[1169px] md:w-[1184px] w-[100%]">
-       <iframe
-        src="https://pulsemarketing.cloud/calculator/calculator.html"
-        width="100%"
-        height="100%"
-        style={{ border: "none", borderRadius: "10px" }}
-    />
-    </div> */}
-    <BrandLogoCards/>
-    <div className='md:translate-y-[70%] translate-y-[65%]'>
+      <BrandLogoCards/>
       <Expertise />
-      {/* <WhoWeWork/> */}
-      </div>
-      {/* <SecondSection /> */}
-      <Pricing/>
+      {/* <Pricing/> */}
+      <NewPricingSection/>
       <BeforeAfterTabs/>
-      {/* <PulseDifferent/> */}
-      {/* <WhyChooseUs /> */}
-      {/* <CROProcess /> */}
       <VideoSection/>
       <CroProcess1/>
       <Team/>
       <YoutubeReviews/>
-      {/* <BeforeAfterSlider/> */}
-      {/* <Results /> */}
-      <Testimonials />
+      <div className="app-page-testimonial mt-[40px] md:mt-[80px]">
+        <NewTestimonials/>
+      </div>
       <FAQSection />
-      {/* <OurBlog /> */}
       <Calender />
       <div>
       <Footer />

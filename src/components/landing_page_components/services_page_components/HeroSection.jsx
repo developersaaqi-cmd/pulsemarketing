@@ -89,7 +89,7 @@ const HeroSection = () => {
     //       </div>
     //       <div className="mt-5">
     //         <Link
-    //           href={"https://calendly.com/ianpslater/20min"}
+    //           href={"https://calendly.com/ianpslater/powermeeting"}
     //           target="_blank"
     //         >
     //           <button

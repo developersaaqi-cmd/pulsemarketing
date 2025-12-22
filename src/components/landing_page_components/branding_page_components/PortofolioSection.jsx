@@ -72,29 +72,18 @@ export default function PortfolioSection() {
   };
 
   return (
-    <main className="md:mt-[-100px] relative w-full">
-      <div
-        style={{
-          backgroundImage: "url('/images/services_page_images/circle.png/')",
-          backgroundSize: "cover",
-          transform: "translateY(-50%)",
-        }}
-        className="h-[38vh] md:h-[38rem]"
-      />
-      <div className="absolute -top-20 z-10 flex w-full flex-col items-center justify-center md:top-12 ">
-        {/* <div className="z-10 mt-8 text-center">
-          <h1 className="mt-12 text-2xl font-bold tracking-wide md:mt-0 md:text-5xl">
-            Our Portfolio
-          </h1>
-        </div> */}
-
+    <main className="relative w-full">
+      <div className='section-circle'>
+        <img src="/new-circle.webp" />
+      </div>
+      <div className="flex w-full flex-col items-center justify-center" id="web-pr-slider">
         <div
           style={{
             backgroundImage: "url('/images/app_page_images/radial.png')",
             backgroundSize: "contain",
             backgroundRepeat: "no-repeat",
           }}
-          className="mt-3 min-h-[200px] w-full md:mx-auto md:min-h-[180px] md:w-full md:translate-y-10 md:py-6"
+          className="w-full md:w-full md:mx-auto"
         >
           <Slider />
         </div>
