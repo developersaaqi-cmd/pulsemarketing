@@ -73,33 +73,68 @@ const OtherContent = () => {
   ];
 
   return (
-    <React.Fragment>
-      {data.map((item, index) => (
-        <div
-          key={index._id}
-          style={{
-            backgroundImage: "url('/images/app_page_images/radial.png)",
-            backgroundSize: "contain",
-            backgroundRepeat: "no-repeat",
-          }}
-          className="mx-auto flex flex-col items-center justify-center gap-3 px-6 py-0 text-center md:w-[70%] md:px-0"
-        >
-          {" "}
+    <main className="privacy-content-container text-center">
+      <div className="flex w-full flex-col items-center justify-center">
+        <div className="text-center">
           <h2 className="text-xl font-bold tracking-wide md:text-4xl">
-            {item.heading}
+            Privacy Policy.
           </h2>
-          <p>{item.content}</p>
-          <p>{item.content2}</p>
-          <p>{item.content3}</p>
-          <p>{item.content4}</p>
-          <p>{item.content5}</p>
-          <p>{item.content6}</p>
-          <p>{item.content7}</p>
-          <p>{item.content8}</p>
-          <p>{item.content9}</p>
         </div>
-      ))}
-    </React.Fragment>
+        <div className="flex-col items-center justify-center text-center" >
+          <p>
+            This Privacy Policy describes Our policies and procedures on the
+            collection, use and disclosure of Your information when You use the
+            Service and tells You about Your privacy rights and how the law
+            protects you.
+          </p>
+
+          <p>
+            We use Your Personal data to provide and improve the Service. By
+            using the Service, You agree to the collection and use of
+            information in accordance with this Privacy Policy.
+          </p>
+
+          <p>
+            The words of which the initial letter is capitalized have meanings
+            deﬁned under the following conditions. The following deﬁnitions
+            shall have the same meaning regardless of whether they appear in
+            singular or in plural.
+          </p>
+        </div>
+
+        <div className="flex flex-col items-center justify-center text-center">
+          <h2 className="text-xl font-bold tracking-wide md:text-4xl">
+            Deﬁnitions
+          </h2>
+
+          <p className="mt-3">For the purposes of this Privacy Policy:</p>
+          <p className="mt-3">
+            Account means a unique account created for You to access our Service
+            or parts of our service.
+          </p>
+        </div>
+      </div>
+      <React.Fragment>
+        {data.map((item, index) => (
+          <div
+            key={index._id}
+          >
+            <h2 className="text-xl font-bold tracking-wide md:text-4xl text-center">
+              {item.heading}
+            </h2>
+            <p>{item.content}</p>
+            <p>{item.content2}</p>
+            <p>{item.content3}</p>
+            <p>{item.content4}</p>
+            <p>{item.content5}</p>
+            <p>{item.content6}</p>
+            <p>{item.content7}</p>
+            <p>{item.content8}</p>
+            <p>{item.content9}</p>
+          </div>
+        ))}
+      </React.Fragment>
+    </main>
   );
 };
 

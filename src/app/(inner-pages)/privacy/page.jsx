@@ -3,6 +3,7 @@ import Footer from '@/components/layout/Footer';
 import Privacy from '../../../components/landing_page_components/privacy/Privacy';
 import OtherContent from '../../../components/landing_page_components/privacy/OtherContent';
 import HeroSection from '../../../components/landing_page_components/privacy/HeroSection';
+import Calender from '@/components/Calender/Calender';
 
 const page = () => {
   return (
@@ -10,6 +11,7 @@ const page = () => {
         <HeroSection/>
         <Privacy/>
         <OtherContent/>
+        <Calender />
         <Footer/>
     </main>
   )

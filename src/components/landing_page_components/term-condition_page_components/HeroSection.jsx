@@ -5,43 +5,28 @@ import Image from 'next/image'
 // import { Reveal } from '@/utils/Reveal'
 const HeroSection = () => {
   return (
-        <main 
-         style={{
-             backgroundImage: "url('/images/term_page_images/hero.png')",
-             backgroundSize: "cover",
-            }}
-            >
-            <Navbar/>
-            <div className='h-[70vh] md:h-[100vh] w-full flex justify-center items-center flex-col relative'>
-                {/* serive heading  */}
-            <div className='flex items-center justify-between gap-1 mb-2' data-aos="fade-down">
-                <Image
-                src="/images/services_page_images/blue-dot.png"
-                alt="blue-dot"
-                width={20}
-                height={20}
-                />
-            <p >The legal stuff</p>
-            </div>
+    <main
+        style={{
+            backgroundImage: "url(/images/term_page_images/hero.png)",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundAttachment: "fixed",
+            backgroundPosition: "center",
+        }}
+        className="relative cro-home"
+        >
+        <div className="absolute inset-0 bg-black/30 bg-opacity-50"></div>
 
-            {/* heading main  */}
-            
-                <h2 className="text-3xl md:text-5xl font-bold leading-tight text-center mb-2">
-                Terms And Conditions
-                </h2>
+        <Navbar />
+        <div className="relative flex w-full flex-col items-center justify-center" id='privacy-banner'>
+            <div className="heading-wrapper" id="center-span-heading">
+                <span>
+                    <span className="mr-2 md:text-left text-cyan-500">•</span>The legal stuff
+                </span>
+                <h3>Terms And Conditions</h3>
                 <p>Please read these terms and conditions carefully before using our service.</p>
-            
-
-            <div className='bg-my-blue-gradient rounded-full p-3 absolute hidden md:bottom-6 right-6'>
-                <Image
-                src={'/images/services_page_images/inbox.png'}
-                alt="inbox"
-                width={15}
-                height={15}
-                />
             </div>
-
-            </div>
+        </div>
         </main>
   )
 }

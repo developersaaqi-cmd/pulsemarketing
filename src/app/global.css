@@ -2937,6 +2937,21 @@ div#service-section .service-boxes-wrapper .service-box h5 {
     color: #fff;
 }
 
+#privacy-banner{
+  padding: 200px 0 550px 0;
+}
+
+.privacy-content-container {
+    max-width: 1050px;
+    margin: -280px auto 0 auto;
+    position: relative;
+}
+
+.privacy-content-container h2 {
+    margin: 23px 0;
+    font-size: 35px;
+}
+
 /* responsive */
 
 @media (max-width: 1500px) {
@@ -3175,6 +3190,26 @@ div#service-section .service-boxes-wrapper .service-box h5 {
       margin-top: -150px;
       max-width: 750px;
       width: 90%;
+  }
+
+  #privacy-banner {
+    padding: 200px 0 420px 0;
+  }
+
+  .privacy-content-container {
+      max-width: 750px;
+      margin: -200px auto 0 auto;
+      position: relative;
+  }
+
+  .privacy-content-container h2 {
+      font-size: 25px;
+      margin: 15px 0;
+      line-height: 1.2em;
+  }
+
+  .privacy-content-container p {
+      font-size: 16px !important;
   }
 
 }
@@ -3479,6 +3514,27 @@ div#service-section .service-boxes-wrapper .service-box h5 {
   #single-blog-content .ct-container :where(h1,h2,h3,h4,h5,h6) {
       font-size: 22px !important;
       margin: 15px 0;
+  }
+
+  #privacy-banner {
+    padding: 200px 0 320px 0;
+  }
+
+  .privacy-content-container {
+      max-width: 700px;
+      margin: -100px auto 0 auto;
+      position: relative;
+      width: 90%;
+  }
+
+  .privacy-content-container h2 {
+      font-size: 25px;
+      margin: 15px 0;
+      line-height: 1.2em;
+  }
+
+  .privacy-content-container p {
+      font-size: 16px !important;
   }
 
 }
@@ -4310,6 +4366,27 @@ div#service-section .service-boxes-wrapper .service-box h5 {
   .cr-container {
       height: auto !important;
       margin: 0 auto !important;
+  }
+
+  #privacy-banner {
+    padding: 200px 0 220px 0;
+  }
+
+  .privacy-content-container {
+      max-width: 700px;
+      margin: -30px auto 0 auto;
+      position: relative;
+      width: 90%;
+  }
+
+  .privacy-content-container h2 {
+      font-size: 22px;
+      margin: 15px 0;
+      line-height: 1.2em;
+  }
+
+  .privacy-content-container p {
+      font-size: 14px !important;
   }
 
 }
