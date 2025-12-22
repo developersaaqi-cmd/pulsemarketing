@@ -19,7 +19,7 @@ export default function NewChoosePlus() {
                 </div>
                 <div className="button">
                     <div className="btn">
-                        <Link href={"#"}>
+                        <Link href={"/web-development"}>
                             <PrimaryBtn text="Learn More" />
                         </Link>
                     </div>
@@ -35,7 +35,7 @@ export default function NewChoosePlus() {
                 </div>
                 <div className="button">
                     <div className="btn">
-                        <Link href={"#"}>
+                        <Link href={"/app/"}>
                             <PrimaryBtn text="Learn More" />
                         </Link>
                     </div>
@@ -51,7 +51,7 @@ export default function NewChoosePlus() {
                 </div>
                 <div className="button">
                     <div className="btn">
-                        <Link href={"#"}>
+                        <Link href={"/branding/"}>
                             <PrimaryBtn text="Learn More" />
                         </Link>
                     </div>
@@ -67,7 +67,7 @@ export default function NewChoosePlus() {
                 </div>
                 <div className="button">
                     <div className="btn">
-                        <Link href={"#"}>
+                        <Link href={"/seo/"}>
                             <PrimaryBtn text="Learn More" />
                         </Link>
                     </div>
@@ -83,7 +83,7 @@ export default function NewChoosePlus() {
                 </div>
                 <div className="button">
                     <div className="btn">
-                        <Link href={"#"}>
+                        <Link href={"/cro/"}>
                             <PrimaryBtn text="Learn More" />
                         </Link>
                     </div>

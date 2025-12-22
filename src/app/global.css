@@ -2933,6 +2933,10 @@ div#service-section .service-boxes-wrapper .service-box .button img {
     margin: 25px 0;
 }
 
+div#service-section .service-boxes-wrapper .service-box h5 {
+    color: #fff;
+}
+
 /* responsive */
 
 @media (max-width: 1500px) {
