@@ -3995,7 +3995,7 @@ div#service-section .service-boxes-wrapper .service-box h5 {
   #service-page-banner {
       display: flex;
       flex-direction: column;
-      gap: 25px;
+      gap: 40px;
       padding: 130px 0 150px 0 !important;
       align-items: flex-start;
   }
@@ -4387,6 +4387,10 @@ div#service-section .service-boxes-wrapper .service-box h5 {
 
   .privacy-content-container p {
       font-size: 14px !important;
+  }
+
+  .swiper-slide {
+    width: 300px !important;
   }
 
 }
