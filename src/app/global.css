@@ -4294,6 +4294,20 @@ div#service-section .service-boxes-wrapper .service-box .button img {
       margin: 15px 0;
   }
 
+  div#content-wrapper-ct-app .css-19kzrtu {
+    padding: 0 !important;
+    margin-bottom: 20px !important;
+  }
+
+  #content-wrapper-ct-app p {
+      line-height: 1.5em;
+  }
+
+  .cr-container {
+      height: auto !important;
+      margin: 0 auto !important;
+  }
+
 }
 
 
