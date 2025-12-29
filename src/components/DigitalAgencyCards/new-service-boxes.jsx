@@ -24,7 +24,7 @@ export default function NewChoosePlus() {
                         </Link>
                     </div>
                     <div className="icon">
-                        <img src="/web.png" />
+                        <img src="/web-icon.gif" />
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@ export default function NewChoosePlus() {
                         </Link>
                     </div>
                     <div className="icon">
-                        <img src="/app.png" />
+                        <img src="/mobileapp-icon.gif" />
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@ export default function NewChoosePlus() {
                         </Link>
                     </div>
                     <div className="icon">
-                        <img src="/deigital-marketing.png" />
+                        <img src="/Digitalbranding-icon.gif" />
                     </div>
                 </div>
             </div>
@@ -72,7 +72,7 @@ export default function NewChoosePlus() {
                         </Link>
                     </div>
                     <div className="icon">
-                        <img src="/seo.png" />
+                        <img src="/seo-icon.gif" />
                     </div>
                 </div>
             </div>
@@ -88,7 +88,23 @@ export default function NewChoosePlus() {
                         </Link>
                     </div>
                     <div className="icon">
-                        <img src="/cro.png" />
+                        <img src="/cro-icon.gif" />
+                    </div>
+                </div>
+            </div>
+            <div className="service-box">
+                <div className="content">
+                    <h5>Ad Advertising</h5>
+                    <p>At Pulse, we help e-commerce businesses scale with powerful ad advertising. From audience targeting to compelling creatives, our strategies are built to boost visibility, engagement, and revenue. We focus on data-driven decisions and continuous optimization to deliver measurable, profitable results.</p>
+                </div>
+                <div className="button">
+                    <div className="btn">
+                        <Link href={"#"}>
+                            <PrimaryBtn text="Learn More" />
+                        </Link>
+                    </div>
+                    <div className="icon">
+                        <img src="/add-icon.gif" />
                     </div>
                 </div>
             </div>

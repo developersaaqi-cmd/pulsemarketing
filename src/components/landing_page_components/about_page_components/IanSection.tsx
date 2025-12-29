@@ -14,45 +14,18 @@ export default function IanSection(){
             <div className="flex flex-col items-center justify-between md:flex-row" id="about-content">
                 <div className="flex flex-col">
                     <h2 className="text-xl font-semibold">Principal, Ian Slater</h2>
-                    <span className="text-lg mt-3">Ian Slater<br/></span>
-                    <p className="mt-3 md:text-md text-xs md:leading-tight leading-snug">
-                    I’ve always been obsessed with business, 
-                    branding, and the power of a strong narrative.
-                     Growing up on the coast of British Columbia with 
-                    two older brothers, I had to be competitive—whether
-                    it was getting to the dinner table first, winning
-                    in sports, or pushing myself in my studies. That
-                     competitive mindset carried me through playing 
-                     NCAA tennis in California and straight into the
-                     world of business, where I quickly realized that the best brands
-                     don’t just sell products—they sell trust, culture, and emotion.
+                    {/* <span className="text-lg mt-3">Ian Slater<br/></span> */}
+                    <p className="mt-3 md:text-md text-xs md:leading-[1.8rem] leading-snug">
+                        I’ve always been obsessed with business, branding, and the power of a good story. Growing up on the coast of British Columbia with two older brothers, I learned early how to compete, whether it was racing to the dinner table, winning in sports, or pushing myself in school. That drive carried me through NCAA tennis in California and into the world of business, where I discovered that great brands don’t just sell products; they sell trust, culture, and emotion.
                      </p>
-                     <p className="mt-3 md:text-md text-xs md:leading-tight leading-snug">Nike doesn’t sell shoes. It sells an identity. Banks don’t sell
-                         mortgages. They sell security. I’ve spent the last decade 
-                         helping brands figure out what they really sell and how to 
-                         connect with their audience in a way that lasts. From my 
-                         early days raking leaves and shoveling driveways as a kid,
-                          to doing $5 Fiverr jobs, to leading six-figure software 
-                          projects, my journey has been about learning, failing,
-                        adapting, and winning.
+                     <p className="mt-3 md:text-md text-xs md:leading-[1.8rem] leading-snug">
+                        Nike doesn’t sell shoes. It sells an identity. Banks don’t sell mortgages. They sell security. For the past decade, I’ve helped brands figure out what they really stand for and how to connect with people in ways that actually last. From raking leaves and shoveling driveways as a kid, to doing $5 Fiverr jobs, to leading six-figure software projects, my path has always been about learning, adapting, and winning.
                     </p>
-                    <p className="mt-3 md:text-md text-xs md:leading-tight leading-snug">
-                    Since 2015, I’ve worked with over 8,000 clients—startups,
-                     established businesses, and CEOs—helping them craft brand
-                     stories that cut through the noise. At Pulse Marketing, 
-                     I work daily with entrepreneurs looking to build something
-                     meaningful. And I don’t do it alone—my marketing assistant,
-                     Maverick, is always by my side. He’s a two-year-old 
-                     purebred Siberian Husky, a trusted companion, and an 
-                    expert in keeping me on my toes.
+                    <p className="mt-3 md:text-md text-xs md:leading-[1.8rem] leading-snug">
+                        Outside of business, I’m still competing. I’m currently ranked #1 in Canada in ITF Men’s 30s Doubles and #2 in Singles, which keeps my edge sharp both on and off the court. The discipline, focus, and resilience that tennis built in me are the same traits I bring into every project at Pulse Marketing.
                     </p>
-                    <p className="mt-3 md:text-md text-xs md:leading-tight leading-snug">
-                    Brand Like a Boss isn’t just another business book.
-                    It’s everything I’ve learned—through wins, losses,
-                    and lessons—about branding, storytelling, and business 
-                    success. Whether you’re building a brand from scratch
-                    or refining what you already have, I hope this book
-                    helps you level up and create something truly unforgettable. 
+                    <p className="mt-3 md:text-md text-xs md:leading-[1.8rem] leading-snug">
+                        Since 2015, I’ve worked with more than 8,000 clients across startups and established businesses, helping them tell stories that cut through the noise. At Pulse Marketing, I work with entrepreneurs who want to build something real, not just look good online. And I don’t do it alone. My sidekick, Maverick, a three-year-old Siberian Husky, is part of the team, keeping me grounded, motivated, and laughing every day.
                     </p>
                     {/* button */}
                     <div className="md:mt-4 mt-8">
@@ -64,7 +37,7 @@ export default function IanSection(){
                 {/* right image section */}
                 <div>
                     <Image 
-                    src={"/images/about_page_images/about-sec-pic.jpg"} 
+                    src={"/ian-pulse.png"} 
                     height={0} width={670} alt="ian slater"
                     >
                     </Image>

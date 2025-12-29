@@ -12,7 +12,7 @@ const AboutText = () => {
       </div>
       <div className="flex-col overflow-hidden md:flex md:items-center md:justify-between lg:flex-row ct-container" id="section-circle-after-div">
         {/* left box  */}
-        <div className="min-h-[27rem] w-full rounded-2xl bg-[#120E28] p-10 md:w-[48%] ">
+        <div className="min-h-[27rem] w-full rounded-2xl bg-[#120E28] p-10 md:w-[48%] flex flex-col items-start justify-center">
           <h2 className="mb-3 text-2xl font-bold">Why We Rock</h2>
           <p>
             Welcome to Pulse Marketing Inc, a Vancouver-based marketing firm
@@ -30,9 +30,9 @@ const AboutText = () => {
         </div>
 
         {/* right box  */}
-        <div className="relative hidden h-full min-h-[28rem] w-full justify-end rounded-2xl md:flex md:w-[48%]">
+        <div className="relative hidden h-full min-h-[27rem] w-full justify-end rounded-2xl md:flex md:w-[48%]">
           <Image
-            src={"/images/about_page_images/abou-banner.jpg"}
+            src={"/about-banner-new.jpg"}
             alt="about-project"
             className="rounded-2xl"
             layout="fill"

@@ -2187,9 +2187,9 @@ div#service-section .service-boxes-wrapper .service-box .button {
 }
 
 div#service-section .service-boxes-wrapper .service-box .button img {
-    width: 60px;
+    width: 70px;
     filter: brightness(0) invert(1);
-    opacity: 0.5;
+    opacity: 1;
 }
 
 .heading-wrapper {
@@ -2952,6 +2952,44 @@ div#service-section .service-boxes-wrapper .service-box h5 {
     font-size: 35px;
 }
 
+#project-tabs-wrapper * {
+    padding: 0px !important;
+}
+
+#newtestimonailsection .item .heading-img h3 {
+    max-width: 300px;
+}
+
+  /* banner circle hide start */
+    .section-circle {
+        display: none !important;
+    }
+
+    #section-circle-after-div {
+        margin-top: 120px !important;
+    }
+
+    #innerpages-banner , #service-page-banner , #privacy-banner , #single-blog-banner {
+        padding: 200px 0 120px 0 !important;
+    }
+
+    #web-pr-slider {
+        margin-top: 160px !important;
+    }
+
+    #service-circle-after.app-page , #seo-service-circle-after .ct-container , #cal , #portflio-page-pr , #main-our-blog-section .ct-container{
+      margin-top: 120px !important;
+    }
+
+    #portflio-page-pr{
+      max-width: 1400px;
+    }
+
+    .privacy-content-container , #single-blog-content .ct-container{
+      margin-top: 90px !important;
+    }
+  /* banner circle hide end */
+
 /* responsive */
 
 @media (max-width: 1500px) {
@@ -3211,6 +3249,32 @@ div#service-section .service-boxes-wrapper .service-box h5 {
   .privacy-content-container p {
       font-size: 16px !important;
   }
+
+  /* banner circle hide start */
+    .section-circle {
+        display: none !important;
+    }
+
+    #section-circle-after-div {
+        margin-top: 80px !important;
+    }
+
+    #innerpages-banner , #service-page-banner , #privacy-banner , #single-blog-banner {
+        padding: 200px 0 120px 0 !important;
+    }
+
+    #web-pr-slider {
+        margin-top: 120px !important;
+    }
+
+    #service-circle-after.app-page , #seo-service-circle-after .ct-container , #cal , #portflio-page-pr , #main-our-blog-section .ct-container{
+      margin-top: 120px !important;
+    }
+
+    .privacy-content-container , #single-blog-content .ct-container{
+      margin-top: 90px !important;
+    }
+  /* banner circle hide end */
 
 }
 
@@ -3537,6 +3601,28 @@ div#service-section .service-boxes-wrapper .service-box h5 {
       font-size: 16px !important;
   }
 
+  /* banner circle hide start */
+    .section-circle {
+        display: none !important;
+    }
+
+    #section-circle-after-div {
+        margin-top: 40px !important;
+    }
+
+    #innerpages-banner , #service-page-banner , #privacy-banner , #single-blog-banner {
+        padding: 160px 0 80px 0 !important;
+    }
+
+    #web-pr-slider {
+        margin-top: 120px !important;
+    }
+
+    #service-circle-after.app-page , #seo-service-circle-after .ct-container , #cal , #portflio-page-pr , #main-our-blog-section .ct-container , .privacy-content-container , #single-blog-content .ct-container{
+      margin-top: 80px !important;
+    }
+  /* banner circle hide end */
+
 }
 
 @media (max-width: 600px) {
@@ -3768,7 +3854,7 @@ div#service-section .service-boxes-wrapper .service-box h5 {
   }
 
   div#service-section .service-boxes-wrapper .service-box .button img {
-      width: 40px;
+      width: 50px;
   }
 
   .fancy-btn .text {
@@ -4392,6 +4478,32 @@ div#service-section .service-boxes-wrapper .service-box h5 {
   .swiper-slide {
     width: 300px !important;
   }
+
+  #newtestimonailsection .item .heading-img h3 {
+    max-width: 230px;
+  }
+
+  /* banner circle hide start */
+    .section-circle {
+        display: none !important;
+    }
+
+    #section-circle-after-div {
+        margin-top: 40px !important;
+    }
+
+    #innerpages-banner , #service-page-banner , #privacy-banner , #single-blog-banner {
+        padding: 120px 0 50px 0 !important;
+    }
+
+    #web-pr-slider {
+        margin-top: 100px !important;
+    }
+
+    #service-circle-after.app-page , #seo-service-circle-after .ct-container , #cal , #portflio-page-pr , #main-our-blog-section .ct-container , .privacy-content-container , #single-blog-content .ct-container{
+      margin-top: 50px !important;
+    }
+  /* banner circle hide end */
 
 }
 

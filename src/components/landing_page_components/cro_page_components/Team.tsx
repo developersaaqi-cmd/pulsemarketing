@@ -132,7 +132,7 @@ export default function Team() {
           </div>
           <div className="content">
             <h4>Ian Slater</h4>
-            <h6>FounderPrincipal & Project Manager</h6>
+            <h6>Principal & Project Manager</h6>
             <p>
               Ian is the Principal at Pulse Marketing Inc., a Vancouver-based performance
               marketing agency focused on revenue growth and brand acceleration. With nearly
