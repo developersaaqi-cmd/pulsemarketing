@@ -62,8 +62,9 @@ export default function DesignServicesSection() {
 
   return (
     <section className="ct-container my-[40px] md:my-[40px] lg:my-[100px]" id="brading-tabs-ct">
-      <div className="heading-wrapper mb-[30px]">
-        <h3>Custom Design Services Tailored To Your Unique Brand Identity.</h3>
+      <div id="center" className="heading-wrapper mb-[30px] seo-pulse">
+        <h3>Custom Design Services Tailored<br/> to Your Brand Identity</h3>
+        <p>We design logos and brand visuals that help your business stand out, stay consistent, and scale with confidence.</p>
       </div>
 
       {/* Tabs */}

@@ -23,27 +23,27 @@ const Services = () => {
       <div className="flex flex-col flex-wrap items-center justify-between gap-4 md:flex-row">
         {[
           {
-            title: "Website Design and Development",
+            title: "Website Design & Development",
             description:
-              "We design and develop custom, responsive websites that are visually appealing, user-friendly, and aligned with your business goals, using the latest technologies.",
+              "We design and build high-performance websites that are fast, responsive, and built to convert. Every site is structured around usability, scalability, and your business goals, not templates or shortcuts.",
             delay: 0.2,
           },
           {
-            title: "Annual Maintenance Service",
+            title: "Ongoing Website Care",
             description:
-              "Our annual maintenance packages include regular updates, security patches, and performance checks to ensure your website remains secure and up-to-date throughout the year.",
+              "Our maintenance plans keep your site secure, updated, and running smoothly. We handle updates, security patches, performance monitoring, and fixes so your website stays reliable and worry-free.",
             delay: 0.25,
           },
           {
-            title: "Website Maintenance",
+            title: "Website Optimization & Improvements",
             description:
-              "We provide ongoing website maintenance, including content updates, bug fixes, and performance improvements, ensuring your site operates smoothly and efficiently.",
+              "We continuously improve your site through content updates, technical fixes, and performance enhancements. The goal is simple: a faster, more stable website that performs better over time.",
             delay: 0.27,
           },
           {
-            title: "Hosting and Administration",
+            title: "Hosting & Infrastructure Management",
             description:
-              "We offer reliable hosting services with 24/7 monitoring, server management, and domain registration to ensure your website is secure, fast, and always operational.",
+              "We provide secure, high-reliability hosting with ongoing monitoring, server management, and domain administration. Your website stays fast, protected, and online at all times.",
             delay: 0.28,
           },
         ].map((card, index) => (
@@ -52,7 +52,7 @@ const Services = () => {
             className="border-1 flex min-h-[220px] w-full transform flex-col gap-3 rounded-2xl border bg-white bg-opacity-10 p-5 backdrop-blur-md transition-transform duration-700 ease-in-out hover:scale-105 md:w-[24%] lg:min-h-[240px] xl:min-h-[292px] 2xl:min-h-[200px]"
           >
             <h3 className="text-xl font-bold tracking-wide">{card.title}</h3>
-            <p>{card.description}</p>
+            <p className="text-[#ffffffc9] font-normal">{card.description}</p>
           </div>
         ))}
       </div>

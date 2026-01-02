@@ -6,6 +6,7 @@ import Tabs from "../MyTabs/Tabs";
 import Projects from "../Projects/Projects";
 import HeroSection2 from "../CroinHome/HeroSection2";
 import Cards from "../DigitalAgencyCards/Cards";
+import NewCards from "../DigitalAgencyCards/new-service-card";
 import Newservice from "../DigitalAgencyCards/new-service-boxes";
 import Testimonials from "../landing_page_components/app_page_components/Testimonials";
 import NewTestimonail from "../landing_page_components/app_page_components/New-Testimonial-section";
@@ -33,7 +34,9 @@ const ContentWrapper = () => {
       {/* <DownloadBook/> */}
       <HeroSection2/>
       <Expertise />
-      <Newservice />
+      <NewCards/>
+      {/* <Cards/> */}
+      {/* <Newservice /> */}
       {/* <Cards />  */}
       {/* <Video /> */}
       {/* <PowerSignatureSection/> */}

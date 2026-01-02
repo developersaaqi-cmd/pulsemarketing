@@ -93,7 +93,8 @@ const HeroLeftContent = () => {
             </p>
           </div>
         </div>
-
+        
+        <a href="https://share.google/Mv3WbgxFuyCaRF5cb" target="_blank" style={{ all: "unset", cursor: "pointer" }}>
         <div className="flex w-full flex-col flex-wrap gap-2 text-left md:flex-row md:items-center md:gap-3">
           <p> Clients rate our team and work</p>
           <div className="flex text-yellow-500">
@@ -106,6 +107,7 @@ const HeroLeftContent = () => {
           <p>4.9</p>
           <p className="text-gray-500 md:pb-0 pb-4">based on 86 client reviews</p>
         </div>
+        </a>
 
         <button
           onClick={toggleForm}

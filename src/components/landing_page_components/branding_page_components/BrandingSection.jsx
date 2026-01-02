@@ -105,17 +105,13 @@ export default function BrandingSection() {
           </h3>
           <div className="paragrpah">
             <p>
-              Our team of talented graphic designers will work with you through
-              the whole process to create a stunning marketing piece that you will
-              love. From logos, business cards, brochures, to signs and everything
-              in between, we have you covered for all of your design needs.
+              We create brands that are clear, confident, and built to last.
             </p>
             <p>
-              Enter the realm where brands come to life, identities are forged,
-              and stories are told through visual narratives. Our logo and
-              branding services are more than just design; they are a strategic
-              blend of creativity and psychology, carving unique identities that
-              resonate with audiences.
+              Our team works closely with you to design logos and brand assets that reflect who you are and where you’re going. From logo design to core brand visuals, everything is crafted with intention and consistency.
+            </p>
+            <p>
+              This is not just design. It is the foundation of how your business is seen, remembered, and trusted.
             </p>
           </div>
         </div>

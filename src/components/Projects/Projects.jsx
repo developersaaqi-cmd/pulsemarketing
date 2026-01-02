@@ -157,8 +157,8 @@ const Projects = () => {
             <main className=" m-auto w-full">
               <div className=" items-center justify-between">
                 <div className="heading-wrapper" id="vertical">
-                  <h3>Driving Business Growth Through Impactful Projects</h3>
-                  <p>Partner with Us to Boost Sales, Maximize Efficiency, and Achieve Exceptional Results.</p>
+                  <h3>Driving Business Growth Through Results</h3>
+                  <p>Partner with Pulse to increase revenue, improve efficiency, and scale with clarity.</p>
                 </div>
               </div>
             </main>

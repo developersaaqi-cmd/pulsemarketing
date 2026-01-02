@@ -50,16 +50,16 @@ const Strategies = () => {
           <h3>Why Choose Pulse<br/>For SEO?</h3>
           <ul>
             <li>
-              Proven Strategies Backed by Data
+              Strategy backed by data
             </li>
             <li>
-              Customized Solutions for Your Unique Business Goals
+              Built for long-term growth
             </li>
             <li>
-              Dedicated SEO Experts with Years of Experience
+              Clear reporting and accountability
             </li>
             <li>
-              Transparent Reporting So You Always Know Your ROI
+              Focused on revenue, not vanity metrics
             </li>
           </ul>
         </div>

@@ -66,15 +66,15 @@ export default function HeroSection() {
               height={20}
               loading="eager"
             />
-            <p className="text-white">Boost Traffic, Increase Revenue</p>
+            <p className="text-white">Built for visibility that converts</p>
           </div>
 
           <h2
             className="pb-2 text-3xl font-bold capitalize text-white md:text-5xl"
             style={{ lineHeight: "1.2" }}
           >
-            Search Engine <br />
-             Optimization
+             SEO That <br />
+             Drives Revenue
           </h2>
 
           {/* <p className="mx-auto abt-text mt-2 w-[100%] text-left text-xs font-medium leading-snug text-gray-100 md:text-xl">
@@ -83,6 +83,7 @@ export default function HeroSection() {
             marketing solutions.
           </p> */}
 
+          <a href="https://share.google/Mv3WbgxFuyCaRF5cb" target="_blank">
           <div className="mt-3 flex w-full flex-col flex-wrap gap-2 text-left md:flex-row md:items-center md:gap-3">
             <p> Clients rate our team and work</p>
             <div className="flex text-yellow-500">
@@ -97,6 +98,7 @@ export default function HeroSection() {
               based on 86 client reviews
             </p>
           </div>
+          </a>
 
           <div className="mt-5">
             <Link

@@ -15,49 +15,40 @@ const BusinessGoals = () => {
     >
 
       <div id="center" className="heading-wrapper">
-        <h3>What We Offer: SEO Services That Deliver</h3>
+        <h3>What We Do: SEO Services Built to Perform</h3>
       </div>
 
       <div className="mt-10 flex flex-wrap items-center justify-between gap-3 px-4 md:gap-0 md:px-0" id="seo-gird-boxes">
         {/* First row */}
         <div className="flex w-full flex-wrap justify-between gap-6">
           {/* card one  */}
-          <div className="border-1 cursor-default transition duration-400 hover:scale-105 flex min-h-[50px] w-full flex-col gap-3 rounded-2xl border bg-white bg-opacity-10 p-5 backdrop-blur-md md:min-h-[240px] md:w-[32%]">
+          <div className="border-1 cursor-default transition duration-400 hover:scale-105 flex w-full flex-col gap-3 rounded-2xl border bg-white bg-opacity-10 p-5 backdrop-blur-md md:w-[32%]">
             <h4>01</h4>
             <h3 className="text-xl font-bold tracking-wide">
-              Business Assessment
+              Strategy & Audit
             </h3>
             <p className="text-sm">
-              At Pulse, we conduct a thorough business assessment to understand
-              your goals, audience, and competition. This allows us to create a
-              tailored SEO plan that boosts your online visibility and drives
-              growth.
+               We assess your site, market, and opportunities to build a clear SEO roadmap.
             </p>
           </div>
 
           {/* card two  */}
-          <div className="border-1 cursor-default transition duration-400 hover:scale-105 flex min-h-[50px] w-full flex-col gap-3 rounded-2xl border bg-white bg-opacity-10 p-5 backdrop-blur-md md:min-h-[240px] md:w-[32%]">
+          <div className="border-1 cursor-default transition duration-400 hover:scale-105 flex w-full flex-col gap-3 rounded-2xl border bg-white bg-opacity-10 p-5 backdrop-blur-md md:w-[32%]">
             <h4>02</h4>
-            <h3 className="text-xl font-bold tracking-wide">Target Customer</h3>
+            <h3 className="text-xl font-bold tracking-wide">Keyword & Competitor Research</h3>
             <p className="text-sm">
-              At Pulse, we analyze your target customers behavior, demographics,
-              and preferences to craft a tailored SEO strategy. This ensures
-              your website reaches the right audience, driving conversions and
-              business growth.
+              We target search terms that drive buyers, not just traffic.
             </p>
           </div>
 
           {/* card three  */}
-          <div className="border-1 cursor-default transition duration-400 hover:scale-105 flex min-h-[50px] w-full flex-col gap-3 rounded-2xl border bg-white bg-opacity-10 p-5 backdrop-blur-md md:min-h-[240px] md:w-[32%]">
+          <div className="border-1 cursor-default transition duration-400 hover:scale-105 flex w-full flex-col gap-3 rounded-2xl border bg-white bg-opacity-10 p-5 backdrop-blur-md md:w-[32%]">
             <h4>03</h4>
             <h3 className="text-xl font-bold tracking-wide">
-              Competitor Analysis
+              On-Page Optimization
             </h3>
             <p className="text-sm">
-              At Pulse, we conduct a thorough competitor analysis to understand
-              your market landscape. By identifying your competitors strengths
-              and weaknesses, we create an SEO strategy that gives you a
-              competitive edge and drives better results.
+              We optimize structure, content, and technical foundations.
             </p>
           </div>
         </div>
@@ -68,42 +59,39 @@ const BusinessGoals = () => {
         {/* Second row */}
         <div className="md:mt-5 mt-3 flex w-full flex-wrap justify-between gap-6 md:gap-3">
           {/* card four */}
-          <div className="border-1 cursor-default transition duration-400 hover:scale-105 flex min-h-[50px] w-full flex-col gap-3 rounded-2xl border bg-white bg-opacity-10 p-5 backdrop-blur-md md:min-h-[240px] md:w-[23%]">
+          <div className="border-1 cursor-default transition duration-400 hover:scale-105 flex w-full flex-col gap-3 rounded-2xl border bg-white bg-opacity-10 p-5 backdrop-blur-md md:w-[32%]">
             <h4>04</h4>
             <h3 className="text-xl font-bold tracking-wide">
               Content Strategy
             </h3>
             <p className="text-sm">
-              We develop a strong content strategy that aligns with your
-              business goals and engages your audience effectively.
+              We create and optimize content that ranks and converts.
             </p>
           </div>
 
           {/* card five */}
-          <div className="border-1 cursor-default transition duration-400 hover:scale-105 flex min-h-[50px] w-full flex-col gap-3 rounded-2xl border bg-white bg-opacity-10 p-5 backdrop-blur-md md:min-h-[240px] md:w-[23%]">
+          <div className="border-1 cursor-default transition duration-400 hover:scale-105 flex w-full flex-col gap-3 rounded-2xl border bg-white bg-opacity-10 p-5 backdrop-blur-md md:w-[32%]">
             <h4>05</h4>
-            <h3 className="text-xl font-bold tracking-wide">
-              On-Page Optimization
-            </h3>
-            <p className="text-sm">
-              Our on-page SEO techniques improve website structure, content
-              relevance, and user experience.
-            </p>
-          </div>
-
-          {/* card six */}
-          <div className="border-1 cursor-default transition duration-400 hover:scale-105 flex min-h-[50px] w-full flex-col gap-3 rounded-2xl border bg-white bg-opacity-10 p-5 backdrop-blur-md md:min-h-[240px] md:w-[23%]">
-            <h4>06</h4>
             <h3 className="text-xl font-bold tracking-wide">
               Performance Tracking
             </h3>
             <p className="text-sm">
-              We track SEO performance with analytics and reporting to ensure
-              continuous improvement.
+              We measure what matters and refine continuously.
+            </p>
+          </div>
+
+          {/* card six */}
+          <div className="border-1 cursor-default transition duration-400 hover:scale-105 flex w-full flex-col gap-3 rounded-2xl border bg-white bg-opacity-10 p-5 backdrop-blur-md md:w-[32%]">
+            <h4>06</h4>
+            <h3 className="text-xl font-bold tracking-wide">
+              Ongoing Optimization
+            </h3>
+            <p className="text-sm">
+              SEO is never set-and-forget. We improve month over month.
             </p>
           </div>
            {/* card seven */}
-          <div className="border-1 cursor-default transition duration-400 hover:scale-105 flex min-h-[50px] w-full flex-col gap-3 rounded-2xl border bg-white bg-opacity-10 p-5 backdrop-blur-md md:min-h-[240px] md:w-[23%]">
+          {/* <div className="border-1 cursor-default transition duration-400 hover:scale-105 flex min-h-[50px] w-full flex-col gap-3 rounded-2xl border bg-white bg-opacity-10 p-5 backdrop-blur-md md:min-h-[240px] md:w-[23%]">
             <h4>07</h4>
             <h3 className="text-xl font-bold tracking-wide">
               SEO Consultation
@@ -112,7 +100,7 @@ const BusinessGoals = () => {
               Get expert SEO consultation to develop a roadmap for your business
               success online.
             </p>
-          </div>
+          </div> */}
         </div>
 
         {/* Space between rows */}

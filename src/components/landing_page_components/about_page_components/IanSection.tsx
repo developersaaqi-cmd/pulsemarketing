@@ -28,10 +28,13 @@ export default function IanSection(){
                         Since 2015, I’ve worked with more than 8,000 clients across startups and established businesses, helping them tell stories that cut through the noise. At Pulse Marketing, I work with entrepreneurs who want to build something real, not just look good online. And I don’t do it alone. My sidekick, Maverick, a three-year-old Siberian Husky, is part of the team, keeping me grounded, motivated, and laughing every day.
                     </p>
                     {/* button */}
-                    <div className="md:mt-4 mt-8">
-                    <Link href={"https://www.ianslater.ca/"} target="_blank">
-                    <PrimaryBtn text={"Visit My Site"} onClick={""} icon={""}/>
-                    </Link>
+                    <div className="md:mt-4 mt-8 flex flex-row flex-wrap gap-[20px]">
+                        <Link href={"https://www.ianslater.ca/"} target="_blank">
+                            <PrimaryBtn text={"Visit My Site"} onClick={""} icon={""}/>
+                        </Link>
+                        <Link href={"https://ca.linkedin.com/in/ianpslater"} target="_blank">
+                            <PrimaryBtn text={"Connect on Linkedin"} onClick={""} icon={""}/>
+                        </Link>
                     </div>
                 </div>
                 {/* right image section */}

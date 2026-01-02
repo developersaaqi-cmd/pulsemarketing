@@ -12,7 +12,7 @@ const SeoApproach = () => {
         </div>
         <div className="flex w-full flex-col items-center justify-center ct-container" style={{ backgroundImage: "url('/images/app_page_images/radial.png')", backgroundSize: "contain", backgroundRepeat: "no-repeat", }} >
           <div id="center" className="heading-wrapper">
-            <h3>Why SEO Matters for Your Business</h3>
+            <h3>Why SEO Matters</h3>
           </div>
 
           {/* inner content  */}
@@ -96,20 +96,11 @@ const SeoApproach = () => {
               }}
             >
               <h4 className=" text-xl font-bold tracking-wide md:text-3xl">
-                Are you struggling to get your website noticed?
+                If your customers can’t find you, they can’t buy from you.
               </h4>
 
               <p>
-                Do you want more traffic, leads, and sales without spending a
-                fortune on ads? <br />
-                Is your website buried deep in search results? <br />
-                Wondering why your competitors are outranking you?
-                <br />
-                <p className="mt-4">
-                  Partner with us to stay ahead in the competitive digital
-                  landscape and achieve measurable results. Elevate your brand
-                  today with Pulse Marketing!
-                </p>
+                SEO builds long-term visibility, consistent traffic, and qualified leads without relying on ads. When done right, it becomes one of the highest-ROI growth channels in your business.
               </p>
             </div>
           </div>

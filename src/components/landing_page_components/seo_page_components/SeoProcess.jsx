@@ -13,8 +13,9 @@ const SeoProcess = () => {
     }}
      >
       <div className="ct-container py-[0px] md:py-[0px] lg:py-[100px]">
-        <div id="center" className="heading-wrapper">
-          <h3>The Pulse SEO Process: How We Work</h3>
+        <div id="center" className="heading-wrapper seo-pulse">
+          <h3>The Pulse SEO Process</h3>
+          <p>How we turn search visibility into revenue.</p>
         </div>
         <div className="mt-5 flex flex-wrap items-center justify-between gap-3 px-4 md:mt-10 md:justify-center md:gap-4 md:px-0">
           {/* First row */}
@@ -32,9 +33,9 @@ const SeoProcess = () => {
               ></Image>
               </div>
               <h2 className="text-xl text-center font-semibold">
-                Free Seo Audit <br />
-                (No String Attached!)
+                Free SEO Audit 
               </h2>
+              <p className='text-[#ffffffc9] font-normal text-center mt-[-5px]'>Clear insights. No obligation.</p>
             </div>
 
             {/* card two  */}
@@ -50,9 +51,9 @@ const SeoProcess = () => {
               ></Image>
               </div>
               <h2 className="text-xl text-center font-semibold">
-                Strategy Development Tailored 
-              to your Business
+                Custom Strategy
               </h2>
+              <p className='text-[#ffffffc9] font-normal text-center mt-[-5px]'>Built around your goals and market.</p>
             </div>
 
             {/* card three  */}
@@ -68,9 +69,9 @@ const SeoProcess = () => {
               ></Image>
               </div>
               <h2 className="text-xl text-center font-semibold">
-                On-Page & Technical <br />
-                Optimization
+                On-Page & Technical SEO
               </h2>
+              <p className='text-[#ffffffc9] font-normal text-center mt-[-5px]'>Fix foundations. Improve performance.</p>
             </div>
           </div>
 
@@ -92,9 +93,9 @@ const SeoProcess = () => {
               ></Image>
               </div>
               <h2 className="text-xl text-center font-semibold">
-                Content Creation &
-                <br /> Link Building
+                Content & Authority
               </h2>
+              <p className='text-[#ffffffc9] font-normal text-center mt-[-5px]'>Create relevance. Build trust.</p>
             </div>
 
             {/* card five */}
@@ -110,9 +111,9 @@ const SeoProcess = () => {
               ></Image>
               </div>
               <h2 className="text-xl text-center font-semibold">
-                Performance Tracking and <br />
-                Contiunous Improvement
+                Track & Improve
               </h2>
+              <p className='text-[#ffffffc9] font-normal text-center mt-[-12px]'>Measure results. Optimize continuously.</p>
             </div>
           </div>
           {/* <img

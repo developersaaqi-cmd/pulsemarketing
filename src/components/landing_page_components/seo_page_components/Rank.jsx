@@ -50,19 +50,19 @@ const Strategies = () => {
     <main className="right-left">
       <div className="ct-container" id="content-image-container">
         <div className="content">
-          <h3>Ready to Rank Higher and<br/> Grow Faster?</h3>
+          <h3>Ready to<br/> Rank Higher?</h3>
           <ul>
             <li>
-              Get Your Free SEO Audit Today!
+              Free SEO audit
             </li>
             <li>
-              Find Out What is Holding Your Website Back
+              Identify growth gaps
             </li>
             <li>
-              Discover Hidden Opportunities to Increase Traffic
+              Build a clear roadmap
             </li>
             <li>
-              Start Dominating Search Results—With Pulse!
+              Scale organic traffic
             </li>
           </ul>
         </div>

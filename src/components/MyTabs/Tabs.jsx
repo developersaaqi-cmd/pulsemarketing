@@ -178,7 +178,7 @@ export default function Tabs() {
     >
       <div className="ct-container">
         <div className="heading-wrapper mb-[30px]">
-          <h3>Sales-Driven Conversion Optimized Platforms.</h3>
+          <h3>Conversion-Focused Platforms Built for Sales.</h3>
         </div>
 
         <div className="mx-auto flex flex-wrap justify-start gap-8 lg:w-[100%]">

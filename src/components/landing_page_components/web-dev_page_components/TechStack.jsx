@@ -21,11 +21,9 @@ const TechStack = () => {
       <div className="heading-wrapper">
         <h3>Web Development <br /> Technology Stack</h3>
         <p>
-          At Pulse, we specialize in building cutting-edge web solutions
-          tailored to your business needs. Our technology stack empowers your
-          vision with scalable, fast, and secure websites.
-          From modern frameworks to robust backend systems, we bring
-          innovation to every project, ensuring a seamless online presence.
+          Our technology choices are intentional.<br />
+          Built for speed, security, and scale.<br />
+          We leverage modern frameworks and reliable backend systems to<br /> create high-performance websites that support growth and evolve with your business.
         </p>
       </div>
 

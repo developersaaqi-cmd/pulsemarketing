@@ -13,26 +13,27 @@ const AboutText = () => {
       <div className="flex-col overflow-hidden md:flex md:items-center md:justify-between lg:flex-row ct-container" id="section-circle-after-div">
         {/* left box  */}
         <div className="min-h-[27rem] w-full rounded-2xl bg-[#120E28] p-10 md:w-[48%] flex flex-col items-start justify-center">
-          <h2 className="mb-3 text-2xl font-bold">Why We Rock</h2>
-          <p>
-            Welcome to Pulse Marketing Inc, a Vancouver-based marketing firm
-            with years of experience serving over 8,000 clients from various
-            industries. We have successfully completed more than 25,000
-            projects, offering comprehensive services from AI consulting,
-            website and app development, ORM, branding, to digital marketing
-            and more. Our highly skilled team applies the latest marketing
-            strategies to meet our clients goals, including increasing brand
-            awareness, lead generation and sales growth. Thanks for
-            considering Pulse Marketing Inc. for your marketing needs. We are
-            committed to helping you reach your goals and propelling your
-            business forward.
-          </p>
+          <h2 className="mb-3 text-2xl font-bold">Why Pulse Works</h2>
+          <span className="flex flex-col gap-[7px]">
+            <p>
+              We’ve seen what works and what doesn’t.
+            </p>
+            <p>
+              Pulse is backed by years of real-world experience building and optimizing marketing systems across multiple industries. We’ve helped businesses navigate growth stages, scale responsibly, and turn marketing into a predictable revenue driver.
+            </p>
+            <p>
+              Our approach is focused, performance-driven, and grounded in execution. We build what converts, refine what matters, and scale what works.
+            </p>
+            <p>
+              Simple. Intentional. Effective.
+            </p>
+          </span>
         </div>
 
         {/* right box  */}
         <div className="relative hidden h-full min-h-[27rem] w-full justify-end rounded-2xl md:flex md:w-[48%]">
           <Image
-            src={"/about-banner-new.jpg"}
+            src={"/about-top-new-n.jpg"}
             alt="about-project"
             className="rounded-2xl"
             layout="fill"

@@ -95,8 +95,8 @@ const Expertise = () => {
         {/* top headin section  */}
         <div className='flex flex-col md:flex-row md:justify-between items-center gap-4'>
             <div className="heading-wrapper">
-                <h3>Expertise in <br/>Leading Platforms</h3>
-                <p>No matter your platform, our CRO strategies are designed to deliver results that drive revenue and delight your customers.</p>
+                <h3>Built to Perform on <br/>Any Platform</h3>
+                <p> Our CRO-driven strategies turn traffic into customers and customers into repeat revenue.</p>
             </div>
         </div>
 

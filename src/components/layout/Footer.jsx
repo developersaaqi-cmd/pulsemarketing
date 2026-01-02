@@ -47,18 +47,20 @@ const Footer = () => {
 
   return (
     <>
-         <div className="flex bg-black-2 w-full flex-col md:flex-row md:items-center md:justify-center text-center gap-3 py-4 md:py-2 mb-3 mt-[2rem] md:mt-5">
-              <p> Clients rate our team and work</p>
-              <div className="flex text-yellow-500 text-center justify-center items-center">
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                <FaStar />
-              </div>
-              <p>4.9</p>
-              <p className="text-gray-500">based on 86 client reviews</p>
-            </div>
+      <a href="https://share.google/Mv3WbgxFuyCaRF5cb" target="_blank">
+      <div className="flex bg-black-2 w-full flex-col md:flex-row md:items-center md:justify-center text-center gap-3 py-4 md:py-2 mb-3 mt-[2rem] md:mt-5">
+        <p> Clients rate our team and work</p>
+        <div className="flex text-yellow-500 text-center justify-center items-center">
+          <FaStar />
+          <FaStar />
+          <FaStar />
+          <FaStar />
+          <FaStar />
+        </div>
+        <p>4.9</p>
+        <p className="text-gray-500">based on 86 client reviews</p>
+      </div>
+      </a>
       <main className="relative mt-4 w-full pb-12 text-white sm:mt-20 md:pt-12">
         <div className="md:justify-none mx-auto flex w-full flex-wrap justify-between gap-8 px-8 lg:w-[88%] lg:px-0">
           {/* Logo & About Section */}

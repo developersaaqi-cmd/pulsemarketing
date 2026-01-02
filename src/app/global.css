@@ -2990,6 +2990,204 @@ div#service-section .service-boxes-wrapper .service-box h5 {
     }
   /* banner circle hide end */
 
+.full-service-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.full-services .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.full-services .content h3 {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    line-height: 1.2em;
+}
+
+.full-services .content p {
+    color: #ffffffc9;
+    max-width: 500px;
+}
+
+.full-services .right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.full-services .right-content h4 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.full-services .right-content .ct-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-width: 350px;
+}
+
+.full-services .right-content .ct-text-wrapper span {
+    display: block;
+    background: #ffffff85;
+    height: 1px;
+}
+
+.full-service-card {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 180%;
+    padding-top: 80px;
+    padding-bottom: calc(40px + 3rem);
+    position: relative;
+    overflow: hidden;
+}
+
+.full-service-card:before {
+    width: 100%;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 18px 35px 40px #040117;
+}
+
+.full-service-card:after {
+    width: 100%;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0px 18px 35px 40px #040117;
+}
+
+.full-service-card .full-heading {
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.1);
+    color: transparent;
+    font-size: 8.2rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    line-height: 1;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.full-services .right-content ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.full-services .right-content ul li {
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.half-service-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+}
+
+.half-service-card-wrapper:nth-child(2) {
+    margin-bottom: 50px;
+}
+
+.full-services {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.full-services .new-full-services-divider {
+    display: block;
+    background: #ffffff36;
+    height: 1px;
+}
+
+.full-services .half-service-card {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20% 180%;
+    padding-top: 40px;
+    padding-bottom: calc(0px + 3rem);
+    position: relative;
+    overflow: hidden;
+}
+
+.full-services .half-service-card:before {
+    height: 100%;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-shadow: 20px 0px 35px 60px #040117;
+}
+
+.full-services .half-service-card:after {
+    width: 100%;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0px 18px 35px 40px #040117;
+}
+
+.full-services .half-service-card .full-heading {
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.1);
+    color: transparent;
+    font-size: 45px;
+    position: absolute;
+    bottom: 0.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    line-height: 1;
+    font-family: 'Poppins';
+    font-weight: 600;
+    z-index: 1;
+}
+
+.full-services .half-service-card {
+    transition: 0.5s ease-in-out all;
+}
+
+.full-services .half-service-card:hover {
+    scale: 1.05;
+}
+
+.full-service-card {
+    transition: 0.5s ease-in-out all;
+}
+
+.full-service-card:hover {
+    scale: 1.03;
+}
+
+#center.seo-pulse {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 /* responsive */
 
 @media (max-width: 1500px) {
@@ -3622,6 +3820,42 @@ div#service-section .service-boxes-wrapper .service-box h5 {
       margin-top: 80px !important;
     }
   /* banner circle hide end */
+
+  .full-service-card {
+    scale: none !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+    padding: 50px 0;
+  }
+
+  .full-service-card .full-heading {
+      font-size: 68px;
+  }
+
+  .full-service-card:before {
+      height: 100%;
+      width: 0px;
+  }
+
+  .full-services .right-content {
+      position: relative;
+      z-index: 3;
+  }
+
+  .half-service-card-wrapper {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 10px;
+  }
+
+  .full-services {
+      gap: 30px;
+  }
+
+  .full-services .half-service-card {
+      scale: none !important;
+  }
 
 }
 
@@ -4504,6 +4738,82 @@ div#service-section .service-boxes-wrapper .service-box h5 {
       margin-top: 50px !important;
     }
   /* banner circle hide end */
+
+  #section-circle-after-div.ct-new-service-cards div {
+    padding: 0;
+  }
+
+  #section-circle-after-div.ct-new-service-cards .full-service-card.mpnone{
+    padding-top: 0px !important;
+  }
+
+  .full-service-card {
+    scale: none !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+    padding: 30px 0 0 0 !important;
+    background-position: 10% 0%;
+  }
+
+  .full-service-card .full-heading {
+      font-size: 28px;
+      display: none;
+  }
+
+  .full-service-card:before {
+      height: 100%;
+      width: 0px;
+  }
+
+  .full-services .right-content {
+      position: relative;
+      z-index: 3;
+  }
+
+  .half-service-card-wrapper {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 30px;
+  }
+
+  .full-services {
+      gap: 30px;
+  }
+
+  .full-services .half-service-card {
+      scale: none !important;
+      padding: 0 0 0px 0;
+  }
+
+  .full-services .content h3 {
+      font-size: 20px;
+  }
+
+  .full-services .content p {
+      font-size: 14px !important;
+      max-width: 100% !important;
+  }
+
+  .full-services .content {
+      gap: 12px;
+  }
+
+  .full-services .right-content h4 {
+      font-size: 15px;
+  }
+
+  .full-services .right-content ul li {
+      font-size: 13px;
+  }
+
+  .full-service-card:after {
+      opacity: 0.5;
+  }
+
+  .full-services .half-service-card .full-heading {
+      display: none;
+  }
 
 }
 

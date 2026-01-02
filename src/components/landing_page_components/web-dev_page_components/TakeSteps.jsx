@@ -41,20 +41,20 @@ const TakeSteps = () => {
 
         <div className="w-full md:w-[60%]">
           <h2 className="text-left text-2xl font-bold tracking-wide md:text-4xl">
-            The Steps We Take
+            How We Work
           </h2>
 
-          <p className="text-left text-[15px]">
-            Our streamlined development process ensures smooth execution from
-            start to finish.
+          <p className="text-left text-[15px] mt-2">
+            A streamlined process built for clarity, speed, and results.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center justify-between gap-6">
             {/* card one  */}
             <div className="border-1 flex min-h-[50px] w-full transform flex-col gap-3 rounded-2xl border bg-white bg-opacity-10 p-5 backdrop-blur-md transition-transform duration-700 ease-in-out hover:scale-105 md:w-[48%]">
               <h3 className="text-xl font-bold tracking-wide">
-                Planning & Strategy
+                Strategy
               </h3>
+              <p className="text-[#ffffffc9] font-normal">We align on goals and define a clear execution plan.</p>
               <p className="text-sm">
                 <div className="flex flex-col ">
                   <div className="mb-2 flex w-auto items-center gap-1">
@@ -64,7 +64,7 @@ const TakeSteps = () => {
                       width={20}
                       height={20}
                     />
-                    <p>Launch</p>
+                    <p>Business objectives</p>
                   </div>
                   <div className="mb-2 flex w-auto items-center gap-1">
                     <Image
@@ -73,7 +73,7 @@ const TakeSteps = () => {
                       width={20}
                       height={20}
                     />
-                    <p>Opinion Monitoring</p>
+                    <p>Project scope</p>
                   </div>
                   <div className="mb-2 flex w-auto items-center gap-1">
                     <Image
@@ -82,9 +82,9 @@ const TakeSteps = () => {
                       width={20}
                       height={20}
                     />
-                    <p>Maintenance</p>
+                    <p>Technical direction</p>
                   </div>
-                  <div className="mb-2 flex w-auto items-center gap-1">
+                  {/* <div className="mb-2 flex w-auto items-center gap-1">
                     <Image
                       src="/images/services_page_images/blue-dot.png"
                       alt="blue-dot"
@@ -92,7 +92,7 @@ const TakeSteps = () => {
                       height={20}
                     />
                     <p>Post-deployment Support</p>
-                  </div>
+                  </div> */}
                 </div>
               </p>
             </div>
@@ -100,8 +100,9 @@ const TakeSteps = () => {
             {/* card two  */}
             <div className="border-1 flex min-h-[50px] w-full transform flex-col gap-3 rounded-2xl border bg-white bg-opacity-10 p-5 backdrop-blur-md transition-transform duration-700 ease-in-out hover:scale-105 md:w-[48%]">
               <h3 className="text-xl font-bold tracking-wide">
-                Development Stage
+                Design
               </h3>
+              <p className="text-[#ffffffc9] font-normal">We design structure and flow with usability in mind.</p>
               <p className="text-sm">
                 <div className="flex flex-col ">
                   <div className="mb-2 flex w-auto items-center gap-1">
@@ -111,7 +112,7 @@ const TakeSteps = () => {
                       width={20}
                       height={20}
                     />
-                    <p>Business analysis</p>
+                    <p>Wireframes</p>
                   </div>
                   <div className="mb-2 flex w-auto items-center gap-1">
                     <Image
@@ -120,7 +121,7 @@ const TakeSteps = () => {
                       width={20}
                       height={20}
                     />
-                    <p>Document specifications</p>
+                    <p>User experience</p>
                   </div>
                   <div className="mb-2 flex w-auto items-center gap-1">
                     <Image
@@ -129,9 +130,9 @@ const TakeSteps = () => {
                       width={20}
                       height={20}
                     />
-                    <p>Preparing wireframes</p>
+                    <p>Client alignment</p>
                   </div>
-                  <div className="mb-2 flex w-auto items-center gap-1">
+                  {/* <div className="mb-2 flex w-auto items-center gap-1">
                     <Image
                       src="/images/services_page_images/blue-dot.png"
                       alt="blue-dot"
@@ -139,7 +140,7 @@ const TakeSteps = () => {
                       height={20}
                     />
                     <p>Getting client approval</p>
-                  </div>
+                  </div> */}
                 </div>
               </p>
             </div>
@@ -147,8 +148,9 @@ const TakeSteps = () => {
             {/* card three  */}
             <div className="border-1 flex min-h-[50px] w-full transform flex-col gap-3 rounded-2xl border bg-white bg-opacity-10 p-5 backdrop-blur-md transition-transform duration-700 ease-in-out hover:scale-105 md:w-[48%]">
               <h3 className="text-xl font-bold tracking-wide">
-                Quality Assurance
+                Development
               </h3>
+              <p className="text-[#ffffffc9] font-normal">We build fast, secure, and scalable websites.</p>
               <p className="text-sm">
                 <div className="flex flex-col ">
                   <div className="mb-2 flex w-auto items-center gap-1">
@@ -158,7 +160,7 @@ const TakeSteps = () => {
                       width={20}
                       height={20}
                     />
-                    <p>Business analysis</p>
+                    <p>Frontend and backend</p>
                   </div>
                   <div className="mb-2 flex w-auto items-center gap-1">
                     <Image
@@ -167,7 +169,7 @@ const TakeSteps = () => {
                       width={20}
                       height={20}
                     />
-                    <p>Document specifications</p>
+                    <p>Integrations</p>
                   </div>
                   <div className="mb-2 flex w-auto items-center gap-1">
                     <Image
@@ -176,9 +178,9 @@ const TakeSteps = () => {
                       width={20}
                       height={20}
                     />
-                    <p>Preparing wireframes</p>
+                    <p>Performance optimization</p>
                   </div>
-                  <div className="mb-2 flex w-auto items-center gap-1">
+                  {/* <div className="mb-2 flex w-auto items-center gap-1">
                     <Image
                       src="/images/services_page_images/blue-dot.png"
                       alt="blue-dot"
@@ -186,14 +188,15 @@ const TakeSteps = () => {
                       height={20}
                     />
                     <p>Getting client approval</p>
-                  </div>
+                  </div> */}
                 </div>
               </p>
             </div>
 
             {/* card one  */}
             <div className="border-1 flex min-h-[50px] w-full transform flex-col gap-3 rounded-2xl border bg-white bg-opacity-10 p-5 backdrop-blur-md transition-transform duration-700 ease-in-out hover:scale-105 md:w-[48%]">
-              <h3 className="text-xl font-bold tracking-wide">Deployment</h3>
+              <h3 className="text-xl font-bold tracking-wide">Launch & Support</h3>
+              <p className="text-[#ffffffc9] font-normal">We launch, monitor, and maintain your site.</p>
               <p className="text-sm">
                 <div className="flex flex-col ">
                   <div className="mb-2 flex w-auto items-center gap-1">
@@ -203,7 +206,7 @@ const TakeSteps = () => {
                       width={20}
                       height={20}
                     />
-                    <p>Launch</p>
+                    <p>Deployment</p>
                   </div>
                   <div className="mb-2 flex w-auto items-center gap-1">
                     <Image
@@ -212,7 +215,7 @@ const TakeSteps = () => {
                       width={20}
                       height={20}
                     />
-                    <p>Opinion Monitoring</p>
+                    <p>Ongoing monitoring</p>
                   </div>
                   <div className="mb-2 flex w-auto items-center gap-1">
                     <Image
@@ -221,9 +224,9 @@ const TakeSteps = () => {
                       width={20}
                       height={20}
                     />
-                    <p>Maintenance</p>
+                    <p>Continuous updates</p>
                   </div>
-                  <div className="mb-2 flex w-auto items-center gap-1">
+                  {/* <div className="mb-2 flex w-auto items-center gap-1">
                     <Image
                       src="/images/services_page_images/blue-dot.png"
                       alt="blue-dot"
@@ -231,7 +234,7 @@ const TakeSteps = () => {
                       height={20}
                     />
                     <p>Post-deployment Support</p>
-                  </div>
+                  </div> */}
                 </div>
               </p>
             </div>

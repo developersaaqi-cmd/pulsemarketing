@@ -30,20 +30,21 @@ export default function NewChoosePlus() {
       {/* LEFT CONTENT */}
       <div className="content">
         <h2>
-          Why Leaders <br /> Choose Pulse
+          Marketing That Actually <br /> Grows Revenue
         </h2>
 
         <p className="pp">
-          Pulse empowers business leaders to achieve their objectives more swiftly
-          and effectively. Our primary focus is to enhance client revenue.
+          Pulse exists to do one thing well: grow your business.<br/>
+          We design and execute marketing strategies that turn demand into customers and customers into scale.<br/><br/>
+          No guesswork. No fluff. Just results.
         </p>
 
         <h5 className="flex items-center gap-2">
           <img src="/new-choose-arrow.svg" alt="" />
-          100% We help businesses scale faster
+          We help businesses grow faster
         </h5>
 
-        <p>Our highly skilled team applies the latest marketing strategies</p>
+        <p>Strategy, creative, and execution built to perform.</p>
       </div>
 
       {/* RIGHT MARQUEE AREA */}
