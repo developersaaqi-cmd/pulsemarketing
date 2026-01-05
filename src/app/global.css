@@ -4870,6 +4870,10 @@ div#service-section .service-boxes-wrapper .service-box h5 {
     padding: 10px;
   }
 
+  .choose-section .logoes-slider {
+    justify-content: center !important;
+  }
+
 }
 
 
