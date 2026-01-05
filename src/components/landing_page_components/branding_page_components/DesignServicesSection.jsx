@@ -14,7 +14,7 @@ export default function DesignServicesSection() {
 
   const tabContent = [
     {
-      title: "Logo Design",
+      title: "Logo Systems",
       items: [
         { image: "/images/branding_page_images/newlogoes/06.jpg" },
         { image: "/images/branding_page_images/newlogoes/07.jpg" },
@@ -42,7 +42,7 @@ export default function DesignServicesSection() {
       ],
     },
     {
-      title: "Branding Design",
+      title: "Brand Identity",
       items: [
         { image: "/images/branding_page_images/businesscard portfolio-01.jpg" },
         { image: "/images/branding_page_images/businesscard portfolio-02.jpg" },
@@ -64,7 +64,7 @@ export default function DesignServicesSection() {
     <section className="ct-container my-[40px] md:my-[40px] lg:my-[100px]" id="brading-tabs-ct">
       <div id="center" className="heading-wrapper mb-[30px] seo-pulse">
         <h3>Custom Design Services Tailored<br/> to Your Brand Identity</h3>
-        <p>We design logos and brand visuals that help your business stand out, stay consistent, and scale with confidence.</p>
+        <p className="text-center">We design logos and brand visuals that help your business stand out, stay consistent, and scale with confidence.</p>
       </div>
 
       {/* Tabs */}

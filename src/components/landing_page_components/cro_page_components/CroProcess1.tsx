@@ -108,28 +108,32 @@ export default function CroProcess1() {
         <div className="process">
           <div className="item">
             <img src="/images/cro_page_images/icon0001 1.png" alt="" />
-            <p>Book your free CRO audit</p>
+            <p>Free CRO Audit</p>
+            <span className="text-sm text-[#ffffffc9] font-normal text-center">Identify leaks, friction points, and missed revenue opportunities.</span>
           </div>
           <span>
             <img src="/images/cro_page_images/down-arrow 1.png" alt="" />
           </span>
           <div className="item">
             <img src="/images/cro_page_images/icon0003 1.png" alt="" />
-            <p>We analyze your site, data & visitor behavior</p>
+            <p>Data & Behavior Analysis</p>
+            <span className="text-sm text-[#ffffffc9] font-normal text-center">We analyze traffic, user behavior, and conversion paths.</span>
           </div>
           <span>
             <img src="/images/cro_page_images/down-arrow 1.png" alt="" />
           </span>
           <div className="item">
             <img src="/images/cro_page_images/icon0004 1.png" alt="" />
-            <p>We test & implement changes</p>
+            <p>Test & Implement</p>
+            <span className="text-sm text-[#ffffffc9] font-normal text-center">High-impact A/B tests and UX improvements rolled out fast.</span>
           </div>
           <span>
             <img src="/images/cro_page_images/down-arrow 1.png" alt="" />
           </span>
           <div className="item">
             <img src="/images/cro_page_images/004 1.png" alt="" />
-            <p>You get more revenue, same traffic</p>
+            <p>Revenue Lift</p>
+            <span className="text-sm text-[#ffffffc9] font-normal text-center">More conversions. More revenue.<br/> Same traffic.</span>
           </div>
         </div>
       </section>

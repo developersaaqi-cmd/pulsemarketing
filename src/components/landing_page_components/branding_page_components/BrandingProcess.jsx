@@ -2,6 +2,8 @@
 // import { Reveal } from '@/utils/Reveal'
 import React from "react";
 import { motion } from "motion/react";
+import Link from "next/link";
+import PrimaryBtn from "@/components/landing_page_components/PrimaryBtns/PrimaryBtn";
 
 const BrandingProcess = () => {
   return (
@@ -18,8 +20,7 @@ const BrandingProcess = () => {
       <div id="center" className="heading-wrapper">
         <h3>Our Branding Process</h3>
         <p>
-          At Pulse Marketing, we create impactful branding that strengthens your business identity and drives growth.
-          Our streamlined process ensures a smooth transition from concept to launch.
+          A clear, focused process that turns strategy into a brand that performs.
         </p>
       </div>
 
@@ -27,39 +28,33 @@ const BrandingProcess = () => {
         {/* First row */}
         <div className="flex w-full flex-wrap justify-between gap-6">
           {/* card one  */}
-          <div className="border-1 flex min-h-[50px] w-full flex-col gap-3 rounded-2xl border bg-white bg-opacity-10 p-5 backdrop-blur-md md:min-h-[240px] md:w-[32%]">
+          <div className="border-1 flex w-full flex-col gap-3 rounded-2xl border bg-white bg-opacity-10 p-5 backdrop-blur-md md:w-[32%]">
             <h4>01</h4>
             <h3 className="text-xl font-bold tracking-wide">
-            Consultation & Discovery
+            Discovery
             </h3>
-            <p className="text-sm">
-            We start by understanding your business, target audience, 
-            and market positioning. This includes a brand audit (if applicable)
-            to assess your current strengths and areas for improvement.
+            <p className="text-sm text-[#ffffffc9] font-normal">
+            We learn your business, audience, and positioning to define a clear brand direction.
             </p>
           </div>
 
           {/* card two  */}
-          <div className="border-1 flex min-h-[50px] w-full flex-col gap-3 rounded-2xl border bg-white bg-opacity-10 p-5 backdrop-blur-md md:min-h-[240px] md:w-[32%]">
+          <div className="border-1 flex w-full flex-col gap-3 rounded-2xl border bg-white bg-opacity-10 p-5 backdrop-blur-md md:w-[32%]">
             <h4>02</h4>
-            <h3 className="text-xl font-bold tracking-wide">Research & Strategy Development</h3>
-            <p className="text-sm">
-            We conduct market research to identify trends, customer preferences,
-            and competitors. From there, we develop
-            a brand strategy that defines your voice, personality, and positioning.
+            <h3 className="text-xl font-bold tracking-wide">Strategy</h3>
+            <p className="text-sm text-[#ffffffc9] font-normal">
+            We develop the foundation: brand voice, positioning, and visual direction.
             </p>
           </div>
 
           {/* card three  */}
-          <div className="border-1 flex min-h-[50px] w-full flex-col gap-3 rounded-2xl border bg-white bg-opacity-10 p-5 backdrop-blur-md md:min-h-[240px] md:w-[32%]">
+          <div className="border-1 flex w-full flex-col gap-3 rounded-2xl border bg-white bg-opacity-10 p-5 backdrop-blur-md md:w-[32%]">
             <h4>03</h4>
             <h3 className="text-xl font-bold tracking-wide">
-              Visual Identity Design
+              Visual Identity
             </h3>
-            <p className="text-sm">
-            Our team creates a logo, color palette, typography, and brand style
-            guide tailored to your business. We present mood boards and concepts
-            for feedback and refine them until they align with your vision
+            <p className="text-sm text-[#ffffffc9] font-normal">
+            We design your logo, color system, and typography, refining until it aligns with your vision.
             </p>
           </div>
         </div>
@@ -73,15 +68,14 @@ const BrandingProcess = () => {
           <div className="border-1 flex min-h-[50px] w-full flex-col gap-3 rounded-2xl border bg-white bg-opacity-10 p-5 backdrop-blur-md md:min-h-[240px] md:w-[24%]">
             <h4>04</h4>
             <h3 className="text-xl font-bold tracking-wide">
-            Brand Collateral Development
+            Brand Assets
             </h3>
-            <p className="text-sm">
-            We design essential brand assets such as:
-            <ul>
-              <li>Business cards, brochures, and stationery</li>
-              <li>Social media templates and graphics</li>
-              <li>Packaging, signage, and promotional materials</li>
-              <li>Website branding elements</li>
+            <p className="text-sm text-[#ffffffc9] font-normal">
+            We create the core assets your brand needs to show up consistently.
+            <ul className="mt-[12px] flex flex-col gap-[5px]">
+              <li>Business and marketing materials.</li>
+              <li>Social and digital assets.</li>
+              <li>Website brand elements.</li>
             </ul>
             </p>
           </div>
@@ -90,12 +84,10 @@ const BrandingProcess = () => {
           <div className="border-1 flex min-h-[50px] w-full flex-col gap-3 rounded-2xl border bg-white bg-opacity-10 p-5 backdrop-blur-md md:min-h-[240px] md:w-[23%]">
             <h4>05</h4>
             <h3 className="text-xl font-bold tracking-wide">
-            Brand Guidelines & Implementation
+            Brand Guidelines
             </h3>
-            <p className="text-sm md:leading-snug">
-            A brand guide is created to ensure consistency across all platforms.
-             It includes logo usage, typography,
-             brand voice, and color schemes for marketing and advertising.
+            <p className="text-sm text-[#ffffffc9] font-normal">
+            We document how your brand is used to ensure consistency everywhere.
             </p>
           </div>
 
@@ -103,13 +95,10 @@ const BrandingProcess = () => {
           <div className="border-1 flex min-h-[50px] w-full flex-col gap-3 rounded-2xl border bg-white bg-opacity-10 p-5 backdrop-blur-md md:min-h-[240px] md:w-[23%]">
             <h4>06</h4>
             <h3 className="text-xl font-bold tracking-wide">
-            Brand Launch & Delivery
+             Launch
             </h3>
-            <p className="text-sm">
-            Final assets are delivered in multiple formats,
-            and we provide rollout support to 
-            help integrate your new brand across all channels. 
-            Marketing strategy integration is available to amplify your brand’s reach.
+            <p className="text-sm text-[#ffffffc9] font-normal">
+            We deliver final assets and support rollout across platforms and channels.
             </p>
           </div>
 
@@ -118,10 +107,8 @@ const BrandingProcess = () => {
             <h3 className="text-xl font-bold tracking-wide">
               Ongoing Support
             </h3>
-            <p className="text-sm md:leading-snug">
-             We offer ongoing branding support as your business evolves. 
-             Whether you need new materials,
-             social media templates, or website updates, we’re here to help.
+            <p className="text-sm text-[#ffffffc9] font-normal">
+             We continue to support your brand as it evolves.
             </p>
           </div>
         </div>
@@ -143,8 +130,10 @@ const BrandingProcess = () => {
           </div> */}
         {/* </div> */}
       </div>
-      <div className="mt-5 flex w-full items-center justify-center text-center">
-        <h2 className="md:text-xl text-sm"><strong>Ready to build a brand that stands out?</strong> Contact us to get started.</h2>
+      <div className="mt-[20px] md:mt-[30px] flex w-full items-center justify-center text-center">
+        <Link href={"#calendly-inline-app"}>
+          <PrimaryBtn text="Let’s get started" />
+        </Link>
       </div>
     </main>
   );

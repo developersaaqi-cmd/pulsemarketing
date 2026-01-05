@@ -178,9 +178,8 @@ export default function ConversionCalculator() {
       </div>
     <Container id="cal" className="" maxWidth="lg" sx={{ bgcolor: "transparent", py: 6 }}>
       <div className="heading-wrapper">
-        <h3>Calculate The Value of CRO</h3>
-        <p>Find out the ROI from conversion rate optimization with this
-          calculator.</p>
+        <h3>See What CRO Is Worth to Your Business</h3>
+        <p>Estimate the revenue impact of improving your conversion rate before you invest.</p>
       </div>
       <div className="">
        {/* <iframe

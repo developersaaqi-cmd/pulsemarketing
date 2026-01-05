@@ -28,13 +28,39 @@ const page = () => {
   return (
     <main className="theme_bg_color">
       <HeroSection />
-      <ConversionCalculator />
+      <VideoSection/>
       <BrandLogoCards/>
-      <Expertise />
+      <Expertise
+        heading={<>CRO Expertise Across<br/> Leading Platforms</>}
+        description={<>We optimize the platforms businesses rely on to<br/> turn traffic into revenue.</>}
+        techSliderImage={[
+          {
+            image: '/images/cro_page_images/slider (1).png',
+            title: 'Shopify',
+            content: 'Conversion-focused optimizations built to scale high-growth brands.'
+          },
+          {
+            image: '/images/cro_page_images/slider (2).png',
+            title: 'WooCommerce',
+            content: 'Custom CRO strategies tailored to flexible WordPress stores.'
+          },
+          {
+            image: '/images/cro_page_images/slider (3).png',
+            title: 'Magento',
+            content: 'Advanced optimization for complex, enterprise-level ecommerce.'
+          },
+          {
+            image: '/images/cro_page_images/slider (4).png',
+            title: 'BigCommerce',
+            content: 'Performance-driven CRO for fast-growing, scalable businesses.'
+          }
+        ]}
+      />
       {/* <Pricing/> */}
       <NewPricingSection/>
       <BeforeAfterTabs/>
-      <VideoSection/>
+      
+      <ConversionCalculator />
       <CroProcess1/>
       <Team/>
       <YoutubeReviews/>

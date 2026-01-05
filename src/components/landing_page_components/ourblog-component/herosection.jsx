@@ -81,6 +81,7 @@ const HeroSection = () => {
               Expert strategies and creative insights to help businesses thrive in Canada. Based in Vancouver,<br/> BC, we share actionable tips to boost sales, build brands, and scale success.
             </p>
 
+            <a href="https://share.google/Mv3WbgxFuyCaRF5cb" target="_blank">
             <div className="mt-3 flex w-full flex-col flex-wrap gap-2 text-left md:flex-row md:items-center md:gap-3">
               <p> Clients rate our team and work</p>
               <div className="flex text-yellow-500">
@@ -95,6 +96,7 @@ const HeroSection = () => {
                 based on 86 client reviews
               </p>
             </div>
+            </a>
 
             <div className="mt-5">
               <Link
@@ -105,7 +107,7 @@ const HeroSection = () => {
                   // onClick={toggleForm}
                   className="poppins-regular contact-btn mb-10 mt-0 flex items-center justify-between rounded-3xl border-none bg-white px-4 py-2 text-black outline-none ease-in-out hover:bg-my-blue-gradient hover:text-white hover:transition-all md:mb-0 md:mt-[24px]"
                 >
-                  Book Now
+                  Book a Strategy Call
                   <div className="ml-2 h-full rounded-full bg-[#6EE3D7] p-[2px]">
                     <MdArrowForward />
                   </div>

@@ -4,50 +4,34 @@ import React from 'react'
 import Slider from 'react-slick'
 import {motion} from 'motion/react';
 
-const Expertise = () => {
+const DEFAULT_TECH_SLIDER_IMAGE = [
+  {
+    image: '/images/cro_page_images/slider (1).png',
+    title: 'Shopify',
+    content: 'Unleashing the platform is full potential for growth.'
+  },
+  {
+    image: '/images/cro_page_images/slider (2).png',
+    title: 'WooCommerce',
+    content: 'Tailored solutions for seamless WordPress integration.'
+  },
+  {
+    image: '/images/cro_page_images/slider (3).png',
+    title: 'Magento',
+    content: 'Advanced customizations for enterprise level stores.'
+  },
+  {
+    image: '/images/cro_page_images/slider (4).png',
+    title: 'Big Commerce',
+    content: 'Scalable optimizations for growing businesses.'
+  }
+]
 
-    const techSliderImage = [
-        {
-            image: '/images/cro_page_images/slider (1).png',
-            title: 'Shopify',
-            content: 'Unleashing the platform is full potential for growth.'
-        },
-        {
-            image: '/images/cro_page_images/slider (2).png',
-            title: 'WooCommerce',
-            content: 'Tailored solutions for seamless WordPress integration.'
-        },
-        {
-            image: '/images/cro_page_images/slider (3).png',
-            title: 'Magento',
-            content: 'Advanced customizations for enterprise level stores.'
-        },
-        {
-            image: '/images/cro_page_images/slider (4).png',
-            title: 'Big Commerce',
-            content: 'Scalable optimizations for growing businesses.'
-        },
-        {
-            image: '/images/cro_page_images/slider (1).png',
-            title: 'Shopify',
-            content: 'Unleashing the platform is full potential for growth.'
-        },
-        {
-            image: '/images/cro_page_images/slider (2).png',
-            title: 'WooCommerce',
-            content: 'Tailored solutions for seamless WordPress integration.'
-        },
-        {
-            image: '/images/cro_page_images/slider (3).png',
-            title: 'Magento',
-            content: 'Advanced customizations for enterprise level stores.'
-        },
-        {
-            image: '/images/cro_page_images/slider (4).png',
-            title: 'Big Commerce',
-            content: 'Scalable optimizations for growing businesses.'
-        },
-    ]
+const Expertise = ({
+    heading = <>Built to Perform on <br />Any Platform</>,
+    description = "Our CRO-driven strategies turn traffic into customers and customers into repeat revenue.",
+    techSliderImage = DEFAULT_TECH_SLIDER_IMAGE
+    }) => {
 
     const settings = {
         dots: true,
@@ -95,8 +79,8 @@ const Expertise = () => {
         {/* top headin section  */}
         <div className='flex flex-col md:flex-row md:justify-between items-center gap-4'>
             <div className="heading-wrapper">
-                <h3>Built to Perform on <br/>Any Platform</h3>
-                <p> Our CRO-driven strategies turn traffic into customers and customers into repeat revenue.</p>
+                <h3>{heading}</h3>
+                <p>{description}</p>
             </div>
         </div>
 

@@ -6,19 +6,19 @@ const IosFriendly = () => {
     const data= [
         {
             image: "/images/app_page_images/ios (2).png",
-            category:"APPLE WATCH"
+            category:"Apple Watch"
         },
         {
             image: "/images/app_page_images/ios (3).png",
-            category:"IPHONE"
+            category:"iPhone"
         },
         {
             image: "/images/app_page_images/ios (4).png",
-            category:"IPAD"
+            category:"iPad"
         },
         {
             image: "/images/app_page_images/ios (1).png",
-            category:"INTERNET OF THINGS"
+            category:"IoT & Connected Devices"
         },
     ];
 
@@ -28,11 +28,7 @@ const IosFriendly = () => {
       <div className="heading-wrapper">
         <h3>iOS-Friendly Devices</h3>
         <p>
-          At Pulse Marketing, we build scalable, robust, and high-performance
-          applications for various iOS devices, like iPhones, iPads, Apple
-          Watches, and more. Our versatility and dynamic solutions have helped us
-          build a strong reputation as the trusted name for Apple watch app
-          development.
+          We design and develop apps that perform flawlessly across the Apple ecosystem and beyond.
         </p>
       </div>
 

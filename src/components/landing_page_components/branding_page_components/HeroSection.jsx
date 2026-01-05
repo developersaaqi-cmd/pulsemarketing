@@ -111,7 +111,7 @@ const HeroSection = () => {
                 // onClick={toggleForm}
                 className="poppins-regular contact-btn mb-10 mt-0 flex items-center justify-between rounded-3xl border-none bg-white px-4 py-2 text-black outline-none ease-in-out hover:bg-my-blue-gradient hover:text-white hover:transition-all md:mb-0 md:mt-[24px]"
               >
-                Book Now
+                Book a Strategy Call
                 <div className="ml-2 h-full rounded-full bg-[#6EE3D7] p-[2px]">
                   <MdArrowForward />
                 </div>

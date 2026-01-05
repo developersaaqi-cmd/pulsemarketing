@@ -13,6 +13,7 @@ const AppDevelopmentSection = () => {
     <main className="ct-container my-[40px] md:my-[40px] lg:my-[100px]" id="app-mobile-tab">
       <div className="heading-wrapper">
         <h3>Leading the Way in Mobile<br/> App Development</h3>
+        <p>From idea to launch, we build applications that are intuitive, scalable, and revenue-ready.</p>
       </div>
 
       <main className="w-full flex-col-reverse justify-between md:flex md:flex-row lg:flex">

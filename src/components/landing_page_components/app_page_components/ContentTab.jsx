@@ -53,17 +53,14 @@ export default function ContentTab({ tabImage, setTabImage }) {
               </div>
               <div className="w-[100%]">
                 <p className=" my-3 text-[12px] font-light">
-                  Welcome to the hub of digital innovation, where ideas evolve
-                  into functional, intuitive applications that redefine user
-                  experiences. Our application development services are driven
-                  by a passion for innovation and a commitment to delivering
-                  solutions that exceed expectations.
+                  We transform concepts into functional, high-impact mobile applications. Whether you’re launching an MVP or upgrading an existing product, our team delivers clean architecture, thoughtful UX, and rock-solid performance.
+                  <br/>
+                  End-to-end expertise across iOS and Android.
                 </p>
 
                 <p className="mt-3 text-[12px] font-light">
-                  iOS App Development for start-up MVP to reinventing your
-                  existing app with a fresh look we are end-to-end iPhone and
-                  Android experts.{" "}
+                  <b className="mb-[8px] block">Purpose-Built Mobile App Development</b>
+                  From MVPs to mature platforms, we build mobile apps that are practical, scalable, and designed to perform.
                 </p>
               </div>
             </div>
