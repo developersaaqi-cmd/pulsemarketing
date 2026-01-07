@@ -88,8 +88,7 @@ const HeroLeftContent = () => {
 
           <div className="my-4 w-[90%] border-l-2 pl-3">
             <p className="poppins-light">
-              Boost your brand with our expert websites, apps, and branding
-              solutions. Bring your vision to life with Pulse.
+              Built to convert. Designed to scale. Proven to perform.
             </p>
           </div>
         </div>
