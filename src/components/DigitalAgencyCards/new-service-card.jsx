@@ -223,15 +223,18 @@ const Cards = () => {
       <div className="new-service-cards my-[40px] md:my-[40px] lg:my-[100px]" id="full-services-section">
         <div className="ct-container">
           <div className="heading-wrapper">
-            <h3>Results-Driven Digital Solutions for Business Growth.</h3>
-            <p>Maximize revenue and customer engagement with Pulse your expert partner in high-impact digital strategies that drive sales, conversions, and long-term success.</p>
+            <h3>What We Do<br/>The Core Services That Make Websites Convert</h3>
+            <p>Pulse focuses on the specific improvements that turn underperforming websites into lead-generating assets. We fix clarity issues, improve user flow, increase visibility in search, and track what actually drives results.</p>
           </div>
 
           <div className="full-services">
             <div className="full-service-card" style={{ backgroundImage: "url('/images/services_page_images/second-section-img.png')", }} >
               <div className="content">
-                <h3>Web<br/> Development</h3>
-                <p>Every decision we make needs to answer the million dollar question: how will this benefit our partner is goal best? We work to develop solutions. Step into our digital workshop, where innovative ideas converge with technical prowess to build bespoke online experiences.</p>
+                <h3>Website Design &<br/> Development</h3>
+                <p>
+                  Websites built to guide visitors toward one clear action.<br/>
+                  We design and rebuild websites with clear messaging, logical structure, fast load times, and strong calls to action so visitors know exactly what to do and why they should do it.
+                </p>
                 <Link href={"/web-development"}>
                   <PrimaryBtn text="Learn More" />
                 </Link>
@@ -264,15 +267,18 @@ const Cards = () => {
                 </div>
                 <h5 className="full-heading">Application Development</h5>
               </div>
-              <div className="half-service-card" style={{ backgroundImage: "url('/images/services_page_images/02.png')", }}>
+              <div className="half-service-card" style={{ backgroundImage: "url('/analytic-service.png')", }}>
                 <div className="content">
-                  <h3>Digital<br/> Branding</h3>
-                  <p>Our team of talented graphic designers will work with you through the whole process to create a stunning marketing piece that you will love. From logos, business cards, brochures, to signs and everything in between we have you covered for all of your design needs.</p>
+                  <h3>Analytics &<br/> Performance Tracking</h3>
+                  <p>
+                    See what’s working and what needs to change.<br/>
+                    We set up tracking that shows where leads come from, which pages drive action, and where users lose interest so improvements are based on real behavior, not assumptions.
+                  </p>
                   <Link href={"/branding"}>
                     <PrimaryBtn text="Learn More" />
                   </Link>
                 </div>
-                <h5 className="full-heading">Branding</h5>
+                <h5 className="full-heading">Analytics</h5>
               </div>
             </div>
 
@@ -281,8 +287,11 @@ const Cards = () => {
             <div className="half-service-card-wrapper">
               <div className="half-service-card" style={{ backgroundImage: "url('/images/services_page_images/fifth-section-img.png')", }}>
                 <div className="content">
-                  <h3>Search Engine<br/> Optimization</h3>
-                  <p>Unlock the full potential of your online presence with Pulse Marketing is expert SEO services. Our dedicated team crafts personalized strategies to improve your search engine rankings, drive organic traffic, and enhance your digital visibility.</p>
+                  <h3>Search Engine<br/> Optimization (SEO)</h3>
+                  <p>
+                    Show up when people are actively searching for your services.<br/>
+                    We optimize your pages, content, and technical setup so your website ranks for high-intent searches that bring in qualified visitors, not just empty traffic.
+                  </p>
                   <Link href={"/seo"}>
                     <PrimaryBtn text="Learn More" />
                   </Link>
@@ -291,8 +300,11 @@ const Cards = () => {
               </div>
               <div className="half-service-card" style={{ backgroundImage: "url('/images/services_page_images/cro-section.png')", }}>
                 <div className="content">
-                  <h3>Conversion Rate<br/> Optimization CRO</h3>
-                  <p>At Pulse, we specialize in Conversion Rate Optimization (CRO) to help e-commerce businesses maximize their sales and revenue. Our tailored CRO strategies are designed to identify barriers in your customer journey, optimize your website performance, and turn casual visitors into loyal customers.</p>
+                  <h3>Conversion Rate<br/> Optimization (CRO)</h3>
+                  <p>
+                    Increase leads without increasing traffic.<br/>
+                    We review how users move through your site, where they hesitate, and where they drop off, then refine layouts, copy, and page flow to improve conversions across key pages.
+                  </p>
                   <Link href={"/cro"}>
                     <PrimaryBtn text="Learn More" />
                   </Link>

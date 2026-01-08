@@ -33,7 +33,7 @@ const AboutText = () => {
         {/* right box  */}
         <div className="relative hidden h-full min-h-[27rem] w-full justify-end rounded-2xl md:flex md:w-[48%]">
           <Image
-            src={"/about-top-new-n.jpg"}
+            src={"/about-new-top.jpg"}
             alt="about-project"
             className="rounded-2xl"
             layout="fill"

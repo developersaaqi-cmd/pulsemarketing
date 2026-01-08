@@ -78,7 +78,7 @@ const HeroSection = () => {
             Built to Scale
           </h2>
 
-          <p className="mx-auto abt-text mt-2 w-[100%] text-left text-xs font-medium leading-snug text-gray-100 md:text-xl">
+          <p className="mx-auto abt-text mt-2 w-[100%] text-left text-xs poppins-light leading-snug text-gray-100 md:text-xl" id="banner-para">
             We design and build custom mobile apps that solve real problems, drive engagement, and support long-term business growth.
           </p>
           

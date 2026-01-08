@@ -77,7 +77,7 @@ const HeroSection = () => {
               Insights That <br/>Drive Growth
             </h2>
 
-            <p className="mx-auto abt-text mt-2 w-[100%] text-left text-xs font-medium leading-snug text-gray-100 md:text-xl">
+            <p className="mx-auto abt-text mt-2 w-[100%] text-left text-xs poppins-light leading-snug text-gray-100 md:text-xl" id="banner-para">
               Expert strategies and creative insights to help businesses thrive in Canada. Based in Vancouver,<br/> BC, we share actionable tips to boost sales, build brands, and scale success.
             </p>
 

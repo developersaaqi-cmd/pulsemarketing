@@ -184,11 +184,11 @@ const HeroSection = () => {
               className="pb-2 text-3xl font-bold capitalize text-white md:text-5xl"
               style={{ lineHeight: "1.2" }}
             >
-              Driving Growth <br />
+              Driving Growth. <br />
               Fueling Success.
             </h2>
 
-            <p className="mx-auto abt-text mt-2 w-[100%] text-left text-xs font-medium leading-snug text-gray-100 md:text-xl">
+            <p className="mx-auto abt-text mt-2 w-[100%] text-left text-xs poppins-light leading-snug text-gray-100 md:text-xl" id="banner-para">
               We help businesses scale faster through revenue-focused
               strategies, cutting-edge web development, and data-driven
               marketing solutions.

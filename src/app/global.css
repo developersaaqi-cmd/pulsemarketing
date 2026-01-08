@@ -3224,6 +3224,11 @@ div#service-section .service-boxes-wrapper .service-box h5 {
     text-align: center;
 }
 
+#banner-para {
+    font-weight: 200;
+    font-size: 18px !important;
+}
+
 /* responsive */
 
 @media (max-width: 1500px) {
@@ -4872,6 +4877,16 @@ div#service-section .service-boxes-wrapper .service-box h5 {
 
   .choose-section .logoes-slider {
     justify-content: center !important;
+  }
+
+  #banner-para {
+    font-weight: 200;
+    font-size: 18px !important;
+  }
+
+  #banner-para {
+    font-weight: 300;
+    font-size: 14px !important;
   }
 
 }

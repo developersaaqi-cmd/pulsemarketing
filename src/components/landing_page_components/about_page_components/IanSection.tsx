@@ -40,7 +40,7 @@ export default function IanSection(){
                 {/* right image section */}
                 <div>
                     <Image 
-                    src={"/ian-pulse.png"} 
+                    src={"/ian-pic.png"} 
                     height={0} width={670} alt="ian slater"
                     >
                     </Image>
